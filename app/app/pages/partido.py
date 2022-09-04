@@ -2,6 +2,7 @@ import streamlit as st
 from datetime import datetime
 import pandas as pd
 import requests
+import urllib.parse
 
 headers = { "accept": "application/json",
            "User-Agent": "Mozilla/5.0"
@@ -43,7 +44,7 @@ partido_info =  requests.get(f"https://divulgacandcontas.tse.jus.br/divulga/rest
 
 st.write(f""" ## {sigla} | {cargo} | {partido} """)
 st.image(f"https://divulgacandcontas.tse.jus.br/divulga/images/partidos/{partido}.jpg")
-
+st.write("https://pt.wikipedia.org/w/index.php?search={}".format(urllib.parse.quote(partido_info['nomePartido'])))
 
 # f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2022/{sigla}/2040602022/{cargo_id}/candidatos"
 candidatos = requests.get(f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2022/{sigla}/2040602022/{cargo_id}/candidatos", headers=headers ).json()['candidatos']

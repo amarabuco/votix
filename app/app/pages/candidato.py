@@ -3,7 +3,7 @@ import plotly.express as px
 from datetime import datetime
 import pandas as pd
 import requests
-
+import urllib.parse
 
 def get_score(df):
     escolaridade = ['Lê e escreve', 'Ensino Fundamental incompleto', 'Ensino Fundamental completo', 'Ensino Médio incompleto', 'Ensino Médio completo', 'Superior incompleto','Superior completo']
@@ -99,11 +99,13 @@ candidato_resumo = pd.Series({p:candidato[p] for p in props}, name=candidato['id
 with st.container():
     st.image(f"https://divulgacandcontas.tse.jus.br/divulga/images/partidos/{partido}.jpg", width=128)
     partido
+    
 
 col1, col2, col3 = st.columns(3)
 with col1:
     st.image(candidato['fotoUrl'])
-    st.write('Reeleição:', candidato['st_REELEICAO'])
+    st.write('Reeleição:', str(candidato['st_REELEICAO']))
+    st.write("https://pt.wikipedia.org/w/index.php?search={}".format(urllib.parse.quote(candidato['nomeCompleto'])))
 with col2:
     st.write('### Dados ')
     st.write('Nome:', candidato['nomeCompleto'])
