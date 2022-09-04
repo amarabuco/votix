@@ -29,7 +29,6 @@ def get_score(df):
     
     cargo_pts = (cargo_pts - 0)/(len(cargos) - 0) * 5
     
-    # eleicoes = len([1 for el in df['eleicoesAnteriores'] if el == 'Eleito'])
     return {'escolaridade': escol_pts, 'idade': score_idade, 'politica': cargo_pts}
 
 headers = { "accept": "application/json",
@@ -48,7 +47,6 @@ sigla = st.selectbox(
     'Estado',
      uf)
 cargos = pd.read_json('https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/cargos.json')
-# cargos = pd.read_json('/Volumes/EXT/myApps/votix/app/app/data/cargos.json')
 
 cargo = st.selectbox(
     'Cargo',
@@ -56,25 +54,11 @@ cargo = st.selectbox(
 
 cargo_id = cargos.query(f'nome == "{cargo}"').values[0,0]
 
-# partidos = pd.read_json('https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/partidos.json')
-
-# partidos = partidos.sort_values(by='sigla')
-# partido = st.selectbox(
-#     'Partido',
-#      partidos['sigla'])
-
-# partido_id = partidos.query(f'sigla == "{partido}"').values[0,0]
-
-# st.write('Estado: ', sigla, 'Cargo: ', cargo, 'Partido:', partido)
-
-# partido_info =  requests.get(f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/partido/2040602022/2022/{sigla}/3/{partido_id}", headers=headers ).json()
-
-# partido_info
-
 st.write(f""" ## {sigla} | {cargo}""")
 
-
-# f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2022/{sigla}/2040602022/{cargo_id}/candidatos"
+f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2022/{sigla}/2040602022/{cargo_id}/candidatos"
+r = requests.get(f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2022/{sigla}/2040602022/{cargo_id}/candidatos", headers=headers)
+st.write(r)
 candidatos = requests.get(f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2022/{sigla}/2040602022/{cargo_id}/candidatos", headers=headers ).json()['candidatos']
 
 candidatos_df = pd.DataFrame(candidatos)
