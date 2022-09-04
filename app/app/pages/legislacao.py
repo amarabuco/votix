@@ -12,7 +12,7 @@ st.write(""" ## Legislação """)
 st.write("O que um deputado faz? Essa e outras repostas.")
 
 
-cargos = pd.read_json('./data/cargos_descricao.json', encoding='utf-8')
+cargos = pd.read_json('https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/cargos_descricao.json', encoding='utf-8')
 
 cargo = st.selectbox(
     'Cargo',

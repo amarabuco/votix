@@ -17,7 +17,7 @@ sigla = st.selectbox(
     'Estado',
      uf, 15)
 
-cargos = pd.read_json('./data/cargos.json')
+cargos = pd.read_json('https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/cargos.json')
 # cargos = pd.read_json('/Volumes/EXT/myApps/votix/app/app/data/cargos.json')
 
 cargo = st.selectbox(
@@ -26,7 +26,7 @@ cargo = st.selectbox(
 
 cargo_id = cargos.query(f'nome == "{cargo}"').values[0,0]
 
-partidos = pd.read_json('./data/partidos.json')
+partidos = pd.read_json('https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/partidos.json')
 
 st.write(f""" ## {sigla} | {cargo}""")
 

@@ -16,7 +16,7 @@ sigla = st.selectbox(
     'Estado',
      uf, 15)
 
-cargos = pd.read_json('./data/cargos.json')
+cargos = pd.read_json('https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/cargos.json')
 # cargos = pd.read_json('/Volumes/EXT/myApps/votix/app/app/data/cargos.json')
 
 cargo = st.selectbox(
@@ -37,7 +37,7 @@ escolaridade = st.selectbox(
     'escolaridade',
      ['TODOS','Superior completo', 'Ensino Médio completo', 'Ensino Médio incompleto', 'Ensino Fundamental completo', 'Ensino Fundamental incompleto', 'Lê e escreve'])
 
-# partidos = pd.read_json('./data/partidos.json')
+# partidos = pd.read_json('https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/partidos.json')
 
 # partidos = partidos.sort_values(by='sigla')
 # partido = st.selectbox(
