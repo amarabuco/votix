@@ -32,7 +32,7 @@ def get_score(df):
     return {'escolaridade': escol_pts, 'idade': score_idade, 'politica': cargo_pts}
 
 headers = { "accept": "application/json",
-           "User-Agent": "Mozilla/5.0"
+           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
            }
 
 st.write(""" # Votix """)
