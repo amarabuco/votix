@@ -1,0 +1,58 @@
+[
+  {
+    "codigo": 3,
+    "sigla": null,
+    "nome": "Governador",
+    "codSuperior": 0,
+    "titular": false,
+    "contagem": 11
+  },
+  {
+    "codigo": 4,
+    "sigla": null,
+    "nome": "Vice-governador",
+    "codSuperior": 0,
+    "titular": false,
+    "contagem": 11
+  },
+  {
+    "codigo": 5,
+    "sigla": null,
+    "nome": "Senador",
+    "codSuperior": 0,
+    "titular": false,
+    "contagem": 9
+  },
+  {
+    "codigo": 6,
+    "sigla": null,
+    "nome": "Deputado Federal",
+    "codSuperior": 0,
+    "titular": false,
+    "contagem": 471
+  },
+  {
+    "codigo": 7,
+    "sigla": null,
+    "nome": "Deputado Estadual",
+    "codSuperior": 0,
+    "titular": false,
+    "contagem": 603
+  },
+  {
+    "codigo": 9,
+    "sigla": null,
+    "nome": "1º Suplente",
+    "codSuperior": 0,
+    "titular": false,
+    "contagem": 9
+  },
+  {
+    "codigo": 10,
+    "sigla": null,
+    "nome": "2º Suplente",
+    "codSuperior": 0,
+    "titular": false,
+    "contagem": 10
+  }
+]
