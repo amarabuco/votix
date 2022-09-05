@@ -8,7 +8,8 @@ headers = { "accept": "application/json",
            "User-Agent": "Mozilla/5.0"
            }
 
-st.write(""" # Votix """)
+
+st.write(""" # 📊  Votix """)
 st.write(""" ## Partidos """)
 st.write("Conheça as características dos candidatos por Estado, Cargo e Partido")
 
@@ -67,7 +68,7 @@ else:
         # cid
         #f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/{sigla}/2040602022/candidato/{cid}"
         candidato = requests.get(f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/{sigla}/2040602022/candidato/{cid}", headers=headers ).json()
-        props = ['descricaoSexo', 'descricaoEstadoCivil', 'descricaoCorRaca', 'descricaoSituacao', 'nacionalidade', 'grauInstrucao', 'ocupacao', 'dataDeNascimento', 'totalDeBens', 'nomeMunicipioNascimento', 'st_MOTIVO_FICHA_LIMPA']
+        props = ['descricaoSexo', 'descricaoEstadoCivil', 'descricaoCorRaca', 'grauInstrucao', 'ocupacao', 'dataDeNascimento', 'totalDeBens', 'nomeMunicipioNascimento', 'st_MOTIVO_FICHA_LIMPA']
         cs = pd.Series({p:candidato[p] for p in props}, name=candidato['id'])
         # cs
         # st.write(pd.Series(cs))
@@ -98,6 +99,7 @@ else:
             st.write(df)
         else:  
             df = candidatos_completo.groupby(p)[p].count()
+            st.bar_chart(pd.DataFrame(df.values, index=df.index))
             st.write(pd.concat([df, ((df/df.sum()).round(2) * 100).rename('%')],axis=1))
             
 

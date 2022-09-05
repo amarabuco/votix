@@ -6,9 +6,10 @@ import requests
 import urllib.parse
 
 def get_score(df):
-    escolaridade = ['Lê e escreve', 'Ensino Fundamental incompleto', 'Ensino Fundamental completo', 'Ensino Médio incompleto', 'Ensino Médio completo', 'Superior incompleto','Superior completo']
-    escol_pts = escolaridade.index(df['grauInstrucao'])
-    escol_pts = (escol_pts - 0)/(len(escolaridade) - 0) * 5
+    escolaridade = {'Lê e escreve':0, 'Ensino Fundamental incompleto':1, 'Ensino Fundamental completo':2, 'Ensino Médio incompleto':2.5, 'Ensino Médio completo':3, 
+                    'Superior incompleto':4, 'Superior completo':5}
+    escol_pts = escolaridade[df['grauInstrucao']]
+    # escol_pts = (escol_pts - 0)/(len(escolaridade) - 0) * 5
     
     idades = [20,30,40,50,60,100]
     idade = ((datetime.now() - pd.to_datetime(df['dataDeNascimento']))/365.2425).days
@@ -18,26 +19,43 @@ def get_score(df):
             score_idade = k
             break        
     
-    cargos = ['Nenhum','Vereador', 'Deputado Estadual', 'Deputado Federal', 'Vice-Prefeito','Prefeito', 'Senador', 'Governador']
+    cargos = {'Nenhum':0,'Vereador':1, 'Deputado Estadual':2, 'Deputado Federal':3, 'Vice-prefeito':2.5,'Prefeito':3, 'Senador':4, 'Vice-governador':4.5, 'Governador':5, 'Vice-presidente':5}
     eleicoes = pd.DataFrame(df['eleicoesAnteriores'])
-    eleicoes['cargo_pts'] = eleicoes['cargo'].apply(lambda x: cargos.index(x))
+    eleicoes['cargo_pts'] = eleicoes['cargo'].apply(lambda x: cargos[x])
     eleito = eleicoes.query(f"situacaoTotalizacao == 'Eleito' or situacaoTotalizacao == 'Eleito por QP'")
     if len(eleito) == 0:
         cargo_pts = 0
     else:
         cargo_pts = eleito['cargo_pts'].max()
     
-    cargo_pts = (cargo_pts - 0)/(len(cargos) - 0) * 5
+    # cargo_pts = (cargo_pts - 0)/(len(cargos) - 0) * 5
     
     return {'escolaridade': escol_pts, 'idade': score_idade, 'politica': cargo_pts}
+
+st.write(""" 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CNMGZ2L10T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CNMGZ2L10T');
+</script> """, unsafe_allow_html=True)
 
 headers = { "accept": "application/json",
            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
            }
 
-st.write(""" # Votix """)
+st.write(""" # 📊  Votix """)
+
+days = ((pd.to_datetime('2022-10-02') - datetime.today()).days)
+st.write(f"#### Faltam {days} dias para a Eleição 2022.")
+st.progress(days)
+
 st.write(""" ## Candidato """)
 st.write("Saiba as informações e pontuação de cada candidato.")
+
 
 st.write(""" ## Estado """)
 
@@ -88,7 +106,8 @@ with st.container():
 col1, col2, col3 = st.columns(3)
 with col1:
     st.image(candidato['fotoUrl'])
-    st.write('Reeleição:', str(candidato['st_REELEICAO']))
+    releeicao = 'Sim' if candidato['st_REELEICAO'] == True else 'Não'
+    st.write('Reeleição:', releeicao)
     st.write("https://pt.wikipedia.org/w/index.php?search={}".format(urllib.parse.quote(candidato['nomeCompleto'])))
 with col2:
     st.write('### Dados ')
@@ -111,11 +130,13 @@ st.write(eleicoes[['nrAno', 'nomeUrna', 'partido','cargo', 'situacaoTotalizacao'
 # candidato
 # candidato_resumo
 st.write("### Pontuação")
-score = pd.Series(get_score(candidato_resumo)).reset_index()
-st.write(score)
-st.write('Nota:', str(score[0].mean().round(2)))
+score = pd.Series(get_score(candidato_resumo)).reset_index().rename({'index':'critério', 0:'pontos'}, axis=1)
+st.write(pd.concat([score, pd.DataFrame({'critério': 'média', 'pontos': score['pontos'].mean()}, index=[len(score)])]))
+# st.write(pd.concat[score, pd.Series({'critério': 'média', 'pontos': score['pontos'].mean()})])
+# st.write(score.mean().round(2))
+st.write('Nota:', str(score['pontos'].mean().round(2)))
 
-fig = px.line_polar(score,  r=0, theta='index', line_close=True, range_r=[0,5])
+fig = px.line_polar(score,  r='pontos', theta='critério', line_close=True, range_r=[0,5])
 fig.update_traces(fill='toself')
 
 st.plotly_chart(fig, use_container_width=True)

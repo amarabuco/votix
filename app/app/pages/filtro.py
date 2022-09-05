@@ -7,7 +7,8 @@ headers = { "accept": "application/json",
            "User-Agent": "Mozilla/5.0"
            }
 
-st.write(""" # Votix """)
+
+st.write(""" # 📊  Votix """)
 st.write(""" ## Filtro """)
 
 uf = ["AC","AL","AM","AP","BA","CE","DF","ES","GO","MA","MG","MS","MT","PA","PB","PE","PI","PR","RJ","RN","RO","RR","RS","SC","SE","SP","TO"]
