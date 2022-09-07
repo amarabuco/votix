@@ -73,7 +73,7 @@ escolaridade = st.selectbox(
 partidos = pd.read_json('https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/partidos.json')
 pos = {1:'extrema direita', 2:'direita', 3:'centro', 4:'esquerda', 5:'extrema esquerda'}
 partidos['posicao'] = partidos['posicao'].apply(lambda x: pos[x])
-st.write(partidos)
+# st.write(partidos)
 
 st.info(f""" ## {sigla} | {cargo} """)
 # st.image(f"https://divulgacandcontas.tse.jus.br/divulga/images/partidos/{partido}.jpg")
