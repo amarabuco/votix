@@ -2,7 +2,9 @@ import streamlit as st
 from datetime import datetime
 import pandas as pd
 import requests
+from utils import get_score
 from stqdm import stqdm
+import webbrowser
 
 st.set_page_config(
     page_title='Votix - Ranking',
@@ -16,7 +18,8 @@ headers = { "accept": "application/json",
 
 
 st.write(""" # 📊  Votix """)
-st.write(""" ## Filtro """)
+st.success(""" ## Ranking """)
+st.write(""" Veja a pontuação dos candidatos. """)
 
 uf = ["AC","AL","AM","AP","BA","CE","DF","ES","GO","MA","MG","MS","MT","PA","PB","PE","PI","PR","RJ","RN","RO","RR","RS","SC","SE","SP","TO"]
 
@@ -41,6 +44,13 @@ cor = st.selectbox(
     'cor',
      ['TODOS','PRETA', 'PARDA', 'BRANCA'])
 
+reeleicao = st.selectbox(
+    'Reeleição',
+     ['TODOS','Sim', 'Não'])
+
+st_rel = {'Sim': True, 'Não': False, 'TODOS':'TODOS'}
+reeleicao = st_rel[reeleicao]
+
 escolaridade = st.selectbox(
     'escolaridade',
      ['TODOS','Superior completo', 'Ensino Médio completo', 'Ensino Médio incompleto', 'Ensino Fundamental completo', 'Ensino Fundamental incompleto', 'Lê e escreve'])
@@ -60,7 +70,7 @@ escolaridade = st.selectbox(
 
 # partido_info
 
-st.write(f""" ## {sigla} | {cargo} """)
+st.info(f""" ## {sigla} | {cargo} """)
 # st.image(f"https://divulgacandcontas.tse.jus.br/divulga/images/partidos/{partido}.jpg")
 
 
@@ -74,6 +84,9 @@ nome_arquivo = f"{sigla}-{cargo}.csv"
 
 try:
     candidatos_completo = pd.read_csv(f"./data/candidatos/{nome_arquivo}")
+    st.write(len(candidatos_completo.columns))
+    if len(candidatos_completo.columns) < 21:
+        1+'1'
 except:
     candidatos_completo = pd.DataFrame()
     total = len(candidatos_df)
@@ -99,6 +112,7 @@ except:
                 'dataDeNascimento',
                 'totalDeBens',
                 'nomeMunicipioNascimento',
+                'eleicoesAnteriores',
                 'st_REELEICAO'
                 ]
         cs = {p:candidato[p] for p in props}
@@ -108,17 +122,38 @@ except:
         # st.write(pd.Series(cs))
         # pd.DataFrame(candidato.values())
         cs['idade'] = ((datetime.now() - pd.to_datetime(candidato['dataDeNascimento']))/365.2425).days
+        props = ["grauInstrucao", "eleicoesAnteriores", "dataDeNascimento"]
+        candidato_resumo = cs[props]
+        score = get_score(candidato_resumo)
+        cs['escolaridade_pts'] = "{:.2f}".format(score['escolaridade'])
+        cs['idade_pts'] = "{:.2f}".format(score['idade'])
+        cs['politica_pts'] = "{:.2f}".format(score['politica'])
+        
+        cs['ranking'] = "{:.2f}".format(pd.Series(score).mean())
+        # cs['TSE'] = f"<a target='_blank' href='https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/{sigla}/{cid}'> TSE</a>"
         candidatos_completo = candidatos_completo.append(cs)
         # st.write(candidatos_completo)    
     candidatos_completo.to_csv(f"./data/candidatos/{nome_arquivo}")
 
 candidatos_completo = candidatos_completo.set_index(['nomeUrna','numero'])
 resultado = candidatos_completo
+cols = ['partido','ranking', 'escolaridade_pts', 'idade_pts', 'politica_pts', 'grauInstrucao','idade', 'descricaoSexo', 'descricaoCorRaca', 'ocupacao','totalDeBens', 'st_REELEICAO']
+
 if(sexo != 'TODOS'):
     resultado = resultado.query(f"descricaoSexo == '{sexo}'")
 if(cor != 'TODOS'):
     resultado = resultado.query(f"descricaoCorRaca == '{cor}'")
 if(escolaridade != 'TODOS'):
     resultado = resultado.query(f"grauInstrucao == '{escolaridade}'")
+if(reeleicao != 'TODOS'):
+    resultado = resultado.query(f"st_REELEICAO == {reeleicao}")
 
-st.write(resultado)
+st.write(resultado.drop('eleicoesAnteriores', axis=1)[cols].sort_values('ranking', ascending=False))
+# st.markdown('Mais informações na página **candidato** no menu lateral.')
+# st.markdown('Descrição da pontuação na página **sobre** no menu lateral.')
+if st.button('Candidato'):
+    webbrowser.open('https://tinyurl.com/votix-br/candidato', new=0)
+if st.button('Pontuacao'):
+    webbrowser.open('https://tinyurl.com/votix-br/sobre', new=0)
+
+# st.write(resultado.drop('eleicoesAnteriores', axis=1))
