@@ -152,8 +152,8 @@ st.write(resultado.drop('eleicoesAnteriores', axis=1)[cols].sort_values('ranking
 # st.markdown('Mais informações na página **candidato** no menu lateral.')
 # st.markdown('Descrição da pontuação na página **sobre** no menu lateral.')
 if st.button('Candidato'):
-    webbrowser.open_newtab('https://tinyurl.com/votix-br/candidato')
+    webbrowser.open_new_tab('https://tinyurl.com/votix-br/candidato')
 if st.button('Pontuacao'):
-    webbrowser.open_newtab('https://tinyurl.com/votix-br/sobre')
+    webbrowser.open_new_tab('https://tinyurl.com/votix-br/sobre')
 
 # st.write(resultado.drop('eleicoesAnteriores', axis=1))
