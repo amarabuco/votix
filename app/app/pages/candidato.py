@@ -67,7 +67,7 @@ st.progress(days)
 st.success(""" ## Candidato """)
 st.write("Saiba as informações e pontuação de cada candidato.")
 if st.button('Ranking'):
-    webbrowser.open('https://tinyurl.com/votix-br/ranking', new=0)
+    webbrowser.open_newtab('https://tinyurl.com/votix-br/ranking')
 
 
 st.write(""" ## Estado """)
