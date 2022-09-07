@@ -151,9 +151,11 @@ if(reeleicao != 'TODOS'):
 st.write(resultado.drop('eleicoesAnteriores', axis=1)[cols].sort_values('ranking', ascending=False))
 # st.markdown('Mais informações na página **candidato** no menu lateral.')
 # st.markdown('Descrição da pontuação na página **sobre** no menu lateral.')
-if st.button('Candidato'):
-    webbrowser.open_new_tab('https://tinyurl.com/votix-br/candidato')
-if st.button('Pontuacao'):
-    webbrowser.open_new_tab('https://tinyurl.com/votix-br/sobre')
+st.write(f"👉 <a target='_blank' href='https://tinyurl.com/votix-br/candidato'> Candidato </a>", unsafe_allow_html=True)
+st.write(f"👉 <a target='_blank' href='https://tinyurl.com/votix-br/sobre'> Pontuação </a>", unsafe_allow_html=True)
+# if st.button('Candidato'):
+#     webbrowser.open_new_tab('https://tinyurl.com/votix-br/candidato')
+# if st.button('Pontuacao'):
+#     webbrowser.open_new_tab('https://tinyurl.com/votix-br/sobre')
 
 # st.write(resultado.drop('eleicoesAnteriores', axis=1))
