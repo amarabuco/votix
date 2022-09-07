@@ -70,6 +70,11 @@ escolaridade = st.selectbox(
 
 # partido_info
 
+partidos = pd.read_json('https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/partidos.json')
+pos = {1:'extrema direita', 2:'direita', 3:'centro', 4:'esquerda', 5:'extrema esquerda'}
+partidos['posicao'] = partidos['posicao'].apply(lambda x: pos[x])
+st.write(partidos)
+
 st.info(f""" ## {sigla} | {cargo} """)
 # st.image(f"https://divulgacandcontas.tse.jus.br/divulga/images/partidos/{partido}.jpg")
 
@@ -85,7 +90,7 @@ nome_arquivo = f"{sigla}-{cargo}.csv"
 try:
     candidatos_completo = pd.read_csv(f"./data/candidatos/{nome_arquivo}")
     st.write(len(candidatos_completo.columns))
-    if len(candidatos_completo.columns) < 21:
+    if len(candidatos_completo.columns) < 22:
         1+'1'
 except:
     candidatos_completo = pd.DataFrame()
@@ -130,6 +135,7 @@ except:
         cs['politica_pts'] = "{:.2f}".format(score['politica'])
         
         cs['ranking'] = "{:.2f}".format(pd.Series(score).mean())
+        cs['posicao'] = partidos.loc[partidos.sigla == cs['partido']]['posicao'].values[0]
         # cs['TSE'] = f"<a target='_blank' href='https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/{sigla}/{cid}'> TSE</a>"
         candidatos_completo = candidatos_completo.append(cs)
         # st.write(candidatos_completo)    
@@ -137,7 +143,7 @@ except:
 
 candidatos_completo = candidatos_completo.set_index(['nomeUrna','numero'])
 resultado = candidatos_completo
-cols = ['partido','ranking', 'escolaridade_pts', 'idade_pts', 'politica_pts', 'grauInstrucao','idade', 'descricaoSexo', 'descricaoCorRaca', 'ocupacao','totalDeBens', 'st_REELEICAO']
+cols = ['partido', 'ranking',  'escolaridade_pts', 'idade_pts', 'politica_pts','posicao', 'grauInstrucao','idade', 'descricaoSexo', 'descricaoCorRaca', 'ocupacao','totalDeBens', 'st_REELEICAO']
 
 if(sexo != 'TODOS'):
     resultado = resultado.query(f"descricaoSexo == '{sexo}'")
