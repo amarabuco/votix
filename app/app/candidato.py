@@ -5,6 +5,12 @@ import pandas as pd
 import requests
 import urllib.parse
 
+st.set_page_config(
+    page_title='Votix - Candidato',
+    page_icon="📊",
+    layout='wide'
+)
+
 def get_score(df):
     escolaridade = {'Lê e escreve':0, 'Ensino Fundamental incompleto':1, 'Ensino Fundamental completo':2, 'Ensino Médio incompleto':2.5, 'Ensino Médio completo':3, 
                     'Superior incompleto':4, 'Superior completo':5}
@@ -49,11 +55,14 @@ headers = { "accept": "application/json",
 
 st.write(""" # 📊  Votix """)
 
-days = ((pd.to_datetime('2022-10-02') - datetime.today()).days)
-st.write(f"#### Faltam {days} dias para a Eleição 2022.")
+timer = pd.to_datetime('2022-10-02') - datetime.today()
+days = (timer.days)
+hours = int(timer.seconds // 3600)
+# st.write(timer)
+st.write(f"#### Faltam {days} dias e {hours} horas para a Eleição 2022.")
 st.progress(days)
 
-st.write(""" ## Candidato """)
+st.success(""" ## Candidato """)
 st.write("Saiba as informações e pontuação de cada candidato.")
 
 
@@ -102,6 +111,7 @@ with st.container():
     st.image(f"https://divulgacandcontas.tse.jus.br/divulga/images/partidos/{partido}.jpg", width=128)
     partido
     
+st.info('### Informações')
 
 col1, col2, col3 = st.columns(3)
 with col1:
@@ -110,7 +120,7 @@ with col1:
     st.write('Reeleição:', releeicao)
     st.write("https://pt.wikipedia.org/w/index.php?search={}".format(urllib.parse.quote(candidato['nomeCompleto'])))
 with col2:
-    st.write('### Dados ')
+    st.write('#### Dados ')
     st.write('Nome:', candidato['nomeCompleto'])
     st.write('Estado Civil:', candidato['descricaoEstadoCivil'])
     st.write('Raça:', candidato['descricaoCorRaca'])
@@ -119,17 +129,17 @@ with col2:
     st.write('Ocupação:', candidato['ocupacao'])
     st.write('Patrimônio:', '{:,.2f}'.format(candidato['totalDeBens']))
 with col3:
-    st.write('### Redes Sociais')
+    st.write('#### Redes Sociais')
     for link in candidato['sites']:
         st.write(f'* {link}')
     
-st.write("### Histórico de Eleições")
+st.info("### Histórico de Eleições")
 eleicoes = pd.DataFrame(candidato['eleicoesAnteriores'])
 st.write(eleicoes[['nrAno', 'nomeUrna', 'partido','cargo', 'situacaoTotalizacao']])
 
 # candidato
 # candidato_resumo
-st.write("### Pontuação")
+st.info("### Pontuação")
 score = pd.Series(get_score(candidato_resumo)).reset_index().rename({'index':'critério', 0:'pontos'}, axis=1)
 st.write(pd.concat([score, pd.DataFrame({'critério': 'média', 'pontos': score['pontos'].mean()}, index=[len(score)])]))
 # st.write(pd.concat[score, pd.Series({'critério': 'média', 'pontos': score['pontos'].mean()})])

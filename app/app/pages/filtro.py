@@ -2,6 +2,13 @@ import streamlit as st
 from datetime import datetime
 import pandas as pd
 import requests
+from stqdm import stqdm
+
+st.set_page_config(
+    page_title='Votix - Ranking',
+    page_icon="📊",
+    layout='wide'
+)
 
 headers = { "accept": "application/json",
            "User-Agent": "Mozilla/5.0"
@@ -69,8 +76,11 @@ try:
     candidatos_completo = pd.read_csv(f"./data/candidatos/{nome_arquivo}")
 except:
     candidatos_completo = pd.DataFrame()
-    for row in candidatos_df.iterrows():
-        cid = row[1]['id']
+    total = len(candidatos_df)
+    un = 1/total
+    i=0
+    for row in stqdm(range(total)):
+        cid = candidatos_df.loc[row]['id']
         # cid
         #f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/{sigla}/2040602022/candidato/{cid}"
         candidato = requests.get(f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/{sigla}/2040602022/candidato/{cid}", headers=headers ).json()
@@ -103,7 +113,6 @@ except:
     candidatos_completo.to_csv(f"./data/candidatos/{nome_arquivo}")
 
 candidatos_completo = candidatos_completo.set_index(['nomeUrna','numero'])
-sexo
 resultado = candidatos_completo
 if(sexo != 'TODOS'):
     resultado = resultado.query(f"descricaoSexo == '{sexo}'")

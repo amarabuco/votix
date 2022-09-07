@@ -4,6 +4,12 @@ import pandas as pd
 import requests
 import urllib.parse
 
+st.set_page_config(
+    page_title='Votix - Partido',
+    page_icon="📊",
+    layout='wide'
+)
+
 headers = { "accept": "application/json",
            "User-Agent": "Mozilla/5.0"
            }

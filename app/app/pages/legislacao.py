@@ -7,7 +7,7 @@ headers = { "accept": "application/json",
            "User-Agent": "Mozilla/5.0"
            }
 
-st.write(""" # Votix """)
+st.write(""" # 📊  Votix """)
 st.write(""" ## Legislação """)
 st.write("O que um deputado faz? Essa e outras repostas.")
 

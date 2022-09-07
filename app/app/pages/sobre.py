@@ -3,6 +3,12 @@ from datetime import datetime
 import pandas as pd
 import requests
 
+st.set_page_config(
+    page_title='Votix - Sobre',
+    page_icon="📊",
+    layout='wide'
+)
+
 headers = { "accept": "application/json"}
 
 st.write(""" # 📊  Votix """)
