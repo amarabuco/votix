@@ -27,7 +27,7 @@ idade = {' < 30': 1,' < 40': 2,'< 50': 3,' < 60':4, ' > 60':5}
 st.write(pd.Series(idade, name='Idade'))
 
 st.write(""" #### Política: eleição para o cargo mais importante, mais pontos. """)
-politica = {'Nenhum':0,'Vereador':1, 'Deputado Estadual':2, 'Deputado Federal':3, 'Vice-prefeito':2.5,'Prefeito':3, 'Senador':4, 'Vice-governador':4.5, 'Governador':5, 'Vice-presidente':5}
+politica = {'Nenhum':0,'Vereador':1, 'Deputado Estadual':2, 'Deputado Federal':3, 'Vice-prefeito':2.5,'Prefeito':3, 'Senador':3.5, 'Vice-Governador':4, 'Governador':4.5, 'Vice-presidente':4.5, 'Presidente': 5}
 st.write(pd.Series(politica, name='Experiência Política'))
 st.write('Exemplo: candidato foi eleito Senador 2010 e Prefeito em 2020. Vai pontuar 4, pois o cargo pra Senador vale mais que o de prefeito.')
 
