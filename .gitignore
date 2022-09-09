@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 app/app/data/candidatos/*
 testes.ipynb
+app/app/data/candidato.json
+.gitignore
+app/app/data/prestacao.json

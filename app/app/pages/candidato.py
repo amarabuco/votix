@@ -7,38 +7,18 @@ import urllib.parse
 from utils import get_score
 import webbrowser
 
+# wordcloud
+from bs4 import BeautifulSoup
+from PIL import Image
+from wordcloud import WordCloud, ImageColorGenerator
+from stqdm import stqdm
+import matplotlib.pyplot as plt
+
 st.set_page_config(
     page_title='Votix - Candidato',
     page_icon="📊",
     layout='wide'
 )
-
-# def get_score(df):
-#     escolaridade = {'Lê e escreve':0, 'Ensino Fundamental incompleto':1, 'Ensino Fundamental completo':2, 'Ensino Médio incompleto':2.5, 'Ensino Médio completo':3, 
-#                     'Superior incompleto':4, 'Superior completo':5}
-#     escol_pts = escolaridade[df['grauInstrucao']]
-#     # escol_pts = (escol_pts - 0)/(len(escolaridade) - 0) * 5
-    
-#     idades = [20,30,40,50,60,100]
-#     idade = ((datetime.now() - pd.to_datetime(df['dataDeNascimento']))/365.2425).days
-#     score_idade = 0
-#     for k, v in enumerate(idades):
-#         if (idade < v):
-#             score_idade = k
-#             break        
-    
-#     cargos = {'Nenhum':0,'Vereador':1, 'Deputado Estadual':2, 'Deputado Federal':3, 'Vice-prefeito':2.5,'Prefeito':3, 'Senador':4, 'Vice-governador':4.5, 'Governador':5, 'Vice-presidente':5}
-#     eleicoes = pd.DataFrame(df['eleicoesAnteriores'])
-#     eleicoes['cargo_pts'] = eleicoes['cargo'].apply(lambda x: cargos[x])
-#     eleito = eleicoes.query(f"situacaoTotalizacao == 'Eleito' or situacaoTotalizacao == 'Eleito por QP'")
-#     if len(eleito) == 0:
-#         cargo_pts = 0
-#     else:
-#         cargo_pts = eleito['cargo_pts'].max()
-    
-#     # cargo_pts = (cargo_pts - 0)/(len(cargos) - 0) * 5
-    
-#     return {'escolaridade': escol_pts, 'idade': score_idade, 'politica': cargo_pts}
 
 st.write(""" 
 <!-- Google tag (gtag.js) -->
@@ -130,14 +110,13 @@ with col1:
     st.image(candidato['fotoUrl'])
     releeicao = 'Sim' if candidato['st_REELEICAO'] == True else 'Não'
     st.write('Reeleição:', releeicao)
-    wk = f"https://pt.wikipedia.org/w/index.php?search="
+    wk = f"https://pt.wikipedia.org/w/index.php?search={urllib.parse.quote(candidato['nomeCompleto'])}"
     tse = f"https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/{sigla}/{cid}"
     google = f"https://news.google.com/search?q={urllib.parse.quote(candidato['nomeCompleto'])}"
     # st.write(wk)
     # st.write(tse)
     st.write(f"👉 <a target='_blank' href='{tse}'> TSE</a>", unsafe_allow_html=True)
     st.write(f"👉 <a target='_blank' href='{wk}'> WIKIPEDIA</a>", unsafe_allow_html=True)
-    st.write(f"👉 <a target='_blank' href='{google}'> GOOGLE</a>", unsafe_allow_html=True)
 with col2:
     st.write('#### Dados ')
     st.write('Nome:', candidato['nomeCompleto'])
@@ -146,6 +125,7 @@ with col2:
     st.write('Idade:', str(candidato['idade']))
     st.write('Escolaridade:', candidato['grauInstrucao'])
     st.write('Ocupação:', candidato['ocupacao'])
+    st.write('Partido:', partido)
     st.write('Patrimônio:', '{:,.2f}'.format(candidato['totalDeBens']))
 with col3:
     st.write('#### Redes Sociais')
@@ -153,6 +133,39 @@ with col3:
         st.write(f'* {link}')
 # candidato
 # candidato_resumo
+st.info("### Nuvem de palavras")
+if st.button('Gerar'):
+    results = []
+    for page in stqdm([1,10,20,30]):
+        r = requests.get(f"https://www.google.com/search?q={candidato['nomeCompleto']}&start={page}")
+        soup = BeautifulSoup(r.text, 'html.parser')
+        for h in soup.find_all('h3'):
+            for s in h.parent.parent.parent :
+                text = s.nextSibling
+                if text != None:
+                    results.append(text.text.lower())
+    
+    STOPWORDS = open('https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/cargos.json')
+        
+    for w in candidato['nomeCompleto'].split(' '):
+        STOPWORDS.append(w)
+    # Start with one review:
+    words = "".join(results)
+
+    # Create and generate a word cloud image:
+    wordcloud = WordCloud(stopwords=STOPWORDS, background_color='black', width=800, height=400).generate(words)
+
+    # Display the generated image:
+    # fig, ax = plt.subplots(figsize=(15,15))
+    # plt.imshow(wordcloud, interpolation='bilinear')
+    # plt.axis("off")
+    st.image(wordcloud.to_image())
+    st.caption('Fonte: Google. 4 primeiras páginas da pesquisa')    
+    st.write(f"👉 <a target='_blank' href='{google}'> GOOGLE</a>", unsafe_allow_html=True)
+                    
+else:
+    st.write(f"👉 <a target='_blank' href='{google}'> GOOGLE</a>", unsafe_allow_html=True)
+
 st.info("### Pontuação")
 score = pd.Series(get_score(candidato_resumo)).reset_index().rename({'index':'critério', 0:'pontos'}, axis=1)
 st.write(pd.concat([score, pd.DataFrame({'critério': 'média', 'pontos': score['pontos'].mean()}, index=[len(score)])]))
