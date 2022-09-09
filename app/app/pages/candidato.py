@@ -145,7 +145,7 @@ if st.button('Gerar'):
                 if text != None:
                     results.append(text.text.lower())
     
-    STOPWORDS = open('https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/cargos.json')
+    STOPWORDS = requests.get('https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/stopwords.txt').text.split(' ')
         
     for w in candidato['nomeCompleto'].split(' '):
         STOPWORDS.append(w)
