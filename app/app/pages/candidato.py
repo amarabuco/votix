@@ -112,11 +112,13 @@ with col1:
     st.write('Reeleição:', releeicao)
     wk = f"https://pt.wikipedia.org/w/index.php?search={urllib.parse.quote(candidato['nomeCompleto'])}"
     tse = f"https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/{sigla}/{cid}"
-    google = f"https://news.google.com/search?q={urllib.parse.quote(candidato['nomeCompleto'])}"
+    news = f"https://news.google.com/search?q={urllib.parse.quote(candidato['nomeCompleto'])}"
+    google = f"https://www.google.com/search?q={urllib.parse.quote(candidato['nomeCompleto'])}"
     # st.write(wk)
     # st.write(tse)
     st.write(f"👉 <a target='_blank' href='{tse}'> TSE</a>", unsafe_allow_html=True)
     st.write(f"👉 <a target='_blank' href='{wk}'> WIKIPEDIA</a>", unsafe_allow_html=True)
+    st.write(f"👉 <a target='_blank' href='{news}'> NOTÍCIAS</a>", unsafe_allow_html=True)
 with col2:
     st.write('#### Dados ')
     st.write('Nome:', candidato['nomeCompleto'])
@@ -162,6 +164,7 @@ if st.button('Gerar'):
     st.image(wordcloud.to_image())
     st.caption('Fonte: Google. 4 primeiras páginas da pesquisa')    
     st.write(f"👉 <a target='_blank' href='{google}'> GOOGLE</a>", unsafe_allow_html=True)
+    
                     
 else:
     st.write(f"👉 <a target='_blank' href='{google}'> GOOGLE</a>", unsafe_allow_html=True)
