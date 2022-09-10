@@ -18,7 +18,7 @@ st.components.v1.html("""
   gtag('js', new Date());
 
   gtag('config', 'G-CNMGZ2L10T');
-</script> """, unsafe_allow_html=True)
+</script> """)
 
 headers = { "accept": "application/json"}
 

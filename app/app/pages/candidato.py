@@ -29,7 +29,7 @@ st.components.v1.html("""
   gtag('js', new Date());
 
   gtag('config', 'G-CNMGZ2L10T');
-</script> """, unsafe_allow_html=True)
+</script> """)
 
 headers = { "accept": "application/json",
            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
