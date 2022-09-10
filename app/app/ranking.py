@@ -58,7 +58,7 @@ escolaridade = st.selectbox(
     'escolaridade',
      ['TODOS','Superior completo', 'Ensino Médio completo', 'Ensino Médio incompleto', 'Ensino Fundamental completo', 'Ensino Fundamental incompleto', 'Lê e escreve'])
 
-vagas = pd.read_csv(f'/Volumes/EXT/myApps/votix/app/app/data/vagas/consulta_vagas_2022_{sigla}.csv', sep=';', encoding='latin1')
+vagas = pd.read_csv(f'https://raw.githubusercontent.com/amarabuco/votix/data/app/app/data/candidatos/consulta_vagas_2022/consulta_vagas_2022_{sigla}.csv', sep=';', encoding='latin1')
 vg = vagas.query(f'CD_CARGO == {cargo_id}')['QT_VAGAS'].values[0]
 st.warning(f'VAGAS: {vg}')
 
@@ -77,7 +77,9 @@ if st.button('Consultar'):
 
     # f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2022/{sigla}/2040602022/{cargo_id}/candidatos"
     candidatos = requests.get(f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2022/{sigla}/2040602022/{cargo_id}/candidatos", headers=headers ).json()['candidatos']
+    # candidatos_df = pd.read_csv(f'https://raw.githubusercontent.com/amarabuco/votix/data/app/app/data/candidatos/consulta_cand_2022/consulta_cand_2022_{sigla}.csv', sep=';', encoding='latin1')
 
+    # candidatos_df = candidatos_df.query(f'CD_CARGO == {cargo_id}')
     candidatos_df = pd.DataFrame(candidatos)
     candidatos_df['PARTIDO'] = candidatos_df['partido'].apply(lambda x:  x['sigla'])
     # candidatos_df
