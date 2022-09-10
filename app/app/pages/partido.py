@@ -2,6 +2,7 @@ import streamlit as st
 from datetime import datetime
 import pandas as pd
 import requests
+from stqdm import stqdm
 import urllib.parse
 
 st.set_page_config(
@@ -69,8 +70,9 @@ if len(candidatos_partido) == 0:
     st.write(""" Não há dados """)
 else:
     candidatos_completo = pd.DataFrame()
-    for row in candidatos_partido.iterrows():
-        cid = row[1]['id']
+    total = len(candidatos_partido)
+    for row in stqdm(range(total)):
+        cid = candidatos_partido.iloc[row]['id']
         # cid
         #f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/{sigla}/2040602022/candidato/{cid}"
         candidato = requests.get(f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/{sigla}/2040602022/candidato/{cid}", headers=headers ).json()

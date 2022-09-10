@@ -20,16 +20,6 @@ st.set_page_config(
     layout='wide'
 )
 
-st.components.v1.html(""" 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CNMGZ2L10T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-CNMGZ2L10T');
-</script> """)
 
 headers = { "accept": "application/json",
            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
@@ -196,6 +186,3 @@ except:
     pass
 st.warning("#### Doadores")
 st.write(pd.DataFrame(prestacao['rankingDoadores']))
-
-
-

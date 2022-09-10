@@ -5,6 +5,7 @@ import requests
 from utils import get_score
 from stqdm import stqdm
 import webbrowser
+import os
 
 st.set_page_config(
     page_title='Votix - Ranking',
@@ -12,21 +13,12 @@ st.set_page_config(
     layout='wide'
 )
 
-st.components.v1.html(""" 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CNMGZ2L10T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+#st.write(os.path.dirname(st.__file__))
 
-  gtag('config', 'G-CNMGZ2L10T');
-</script> """)
 
 headers = { "accept": "application/json",
-           "User-Agent": "Mozilla/5.0"
+           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
            }
-
 
 st.write(""" # 📊  Votix """)
 st.success(""" ## Ranking """)
@@ -163,3 +155,4 @@ if st.button('Consultar'):
     #     webbrowser.open_new_tab('https://tinyurl.com/votix-br/sobre')
 
     # st.write(resultado.drop('eleicoesAnteriores', axis=1))
+    
