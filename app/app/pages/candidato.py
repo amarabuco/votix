@@ -130,7 +130,7 @@ with col3:
 # candidato_resumo
 if cargo_id == 3:
     st.info("### Proposta")
-    proposta = f"https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/propostas/{sigla}/2022{sigla}{candidato['id']}.pdf"
+    proposta = f"https://raw.githubusercontent.com/amarabuco/votix/data/app/app/data/propostas/{sigla}/2022{sigla}{candidato['id']}.pdf"
     st.write(f"📔 <a target='_blank' href='{proposta}'> PROPOSTA</a>", unsafe_allow_html=True)
 
 st.info("### Nuvem de palavras")
