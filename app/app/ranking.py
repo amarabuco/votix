@@ -12,6 +12,17 @@ st.set_page_config(
     layout='wide'
 )
 
+st.components.v1.html(""" 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CNMGZ2L10T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CNMGZ2L10T');
+</script> """, unsafe_allow_html=True)
+
 headers = { "accept": "application/json",
            "User-Agent": "Mozilla/5.0"
            }

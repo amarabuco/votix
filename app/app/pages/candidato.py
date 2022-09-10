@@ -20,7 +20,7 @@ st.set_page_config(
     layout='wide'
 )
 
-st.write(""" 
+st.components.v1.html(""" 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNMGZ2L10T"></script>
 <script>
