@@ -58,7 +58,13 @@ escolaridade = st.selectbox(
     'escolaridade',
      ['TODOS','Superior completo', 'Ensino Médio completo', 'Ensino Médio incompleto', 'Ensino Fundamental completo', 'Ensino Fundamental incompleto', 'Lê e escreve'])
 
+vagas = pd.read_csv(f'/Volumes/EXT/myApps/votix/app/app/data/vagas/consulta_vagas_2022_{sigla}.csv', sep=';', encoding='latin1')
+vg = vagas.query(f'CD_CARGO == {cargo_id}')['QT_VAGAS'].values[0]
+st.warning(f'VAGAS: {vg}')
+
 if st.button('Consultar'):
+    # vagas = pd.read_json('https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/cargos.json')
+    
 
     partidos = pd.read_json('https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/partidos.json')
     pos = {1:'extrema direita', 2:'direita', 3:'centro', 4:'esquerda', 5:'extrema esquerda'}

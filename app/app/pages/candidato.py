@@ -59,6 +59,7 @@ st.write(f""" ## {sigla} | {cargo}""")
 # f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2022/{sigla}/2040602022/{cargo_id}/candidatos"
 # r = requests.get(f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2022/{sigla}/2040602022/{cargo_id}/candidatos", headers=headers)
 # st.write(r)
+
 candidatos = requests.get(f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2022/{sigla}/2040602022/{cargo_id}/candidatos", headers=headers ).json()['candidatos']
 
 candidatos_df = pd.DataFrame(candidatos)
@@ -104,27 +105,34 @@ with col1:
     tse = f"https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/{sigla}/{cid}"
     news = f"https://news.google.com/search?q={urllib.parse.quote(candidato['nomeCompleto'])}"
     google = f"https://www.google.com/search?q={urllib.parse.quote(candidato['nomeCompleto'])}"
+    lattes = f"http://buscatextual.cnpq.br/buscatextual/busca.do"
     # st.write(wk)
     # st.write(tse)
     st.write(f"👉 <a target='_blank' href='{tse}'> TSE</a>", unsafe_allow_html=True)
     st.write(f"👉 <a target='_blank' href='{wk}'> WIKIPEDIA</a>", unsafe_allow_html=True)
     st.write(f"👉 <a target='_blank' href='{news}'> NOTÍCIAS</a>", unsafe_allow_html=True)
 with col2:
-    st.write('#### Dados ')
-    st.write('Nome:', candidato['nomeCompleto'])
-    st.write('Estado Civil:', candidato['descricaoEstadoCivil'])
-    st.write('Raça:', candidato['descricaoCorRaca'])
-    st.write('Idade:', str(candidato['idade']))
-    st.write('Escolaridade:', candidato['grauInstrucao'])
-    st.write('Ocupação:', candidato['ocupacao'])
-    st.write('Partido:', partido)
-    st.write('Patrimônio:', '{:,.2f}'.format(candidato['totalDeBens']))
+    st.write('#### 📋 Dados ')
+    st.write('🏷 Nome:', candidato['nomeCompleto'])
+    st.write('💍 Estado Civil:', candidato['descricaoEstadoCivil'])
+    st.write('🎨 Cor:', candidato['descricaoCorRaca'])
+    st.write('⏳ Idade:', str(candidato['idade']))
+    st.write('📚 Escolaridade:',  f"{candidato['grauInstrucao']} <a target='_blank' href='{lattes}'> LATTES</a>", unsafe_allow_html=True)
+    st.write('🛠  Ocupação:', candidato['ocupacao'])
+    st.write('💼 Partido:', partido)
+    # st.write('Patrimônio:', '{:,.2f}'.format(candidato['totalDeBens']))
+    st.write('💰 Patrimônio:', '{:,.2f}'.format(candidato['totalDeBens']))
 with col3:
     st.write('#### Redes Sociais')
     for link in candidato['sites']:
         st.write(f'* {link}')
 # candidato
 # candidato_resumo
+if cargo_id == 3:
+    st.info("### Proposta")
+    proposta = f"https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/propostas/{sigla}/2022{sigla}{candidato['id']}.pdf"
+    st.write(f"📔 <a target='_blank' href='{proposta}'> PROPOSTA</a>", unsafe_allow_html=True)
+
 st.info("### Nuvem de palavras")
 if st.button('Gerar'):
     results = []
