@@ -47,6 +47,20 @@ cor = st.selectbox(
     'cor',
      ['TODOS','PRETA', 'PARDA', 'BRANCA'])
 
+posicao = st.selectbox(
+    'posicao',
+     ['TODOS','PRETA', 'PARDA', 'BRANCA'])
+
+partidos = pd.read_json('https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/partidos.json')
+
+partidos = partidos.sort_values(by='sigla')
+partidos.loc[len(partidos)+1] = 'TODOS'
+
+partido = st.selectbox(
+    'Partido',
+     partidos['sigla'],len(partidos)-1)
+
+
 reeleicao = st.selectbox(
     'Reeleição',
      ['TODOS','Sim', 'Não'])
@@ -58,9 +72,15 @@ escolaridade = st.selectbox(
     'escolaridade',
      ['TODOS','Superior completo', 'Ensino Médio completo', 'Ensino Médio incompleto', 'Ensino Fundamental completo', 'Ensino Fundamental incompleto', 'Lê e escreve'])
 
+candidatos_df = pd.read_csv(f'https://raw.githubusercontent.com/amarabuco/votix/data/app/app/data/candidatos/consulta_cand_2022/consulta_cand_2022_{sigla}.csv', sep=';', encoding='latin1')
+candidatos_df = candidatos_df.query(f'CD_CARGO == {cargo_id}')
+candidatos_df
+
+qtd = len(candidatos_df)
+
 vagas = pd.read_csv(f'https://raw.githubusercontent.com/amarabuco/votix/data/app/app/data/candidatos/consulta_vagas_2022/consulta_vagas_2022_{sigla}.csv', sep=';', encoding='latin1')
 vg = vagas.query(f'CD_CARGO == {cargo_id}')['QT_VAGAS'].values[0]
-st.warning(f'VAGAS: {vg}')
+st.warning(f'CANDIDATOS: {qtd} | VAGAS: {vg} | CONCORRÊNCIA: {qtd/vg}')
 
 if st.button('Consultar'):
     # vagas = pd.read_json('https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/cargos.json')
@@ -74,16 +94,34 @@ if st.button('Consultar'):
     st.info(f""" ## {sigla} | {cargo} """)
     # st.image(f"https://divulgacandcontas.tse.jus.br/divulga/images/partidos/{partido}.jpg")
 
+ 
 
     # f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2022/{sigla}/2040602022/{cargo_id}/candidatos"
     candidatos = requests.get(f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2022/{sigla}/2040602022/{cargo_id}/candidatos", headers=headers ).json()['candidatos']
-    # candidatos_df = pd.read_csv(f'https://raw.githubusercontent.com/amarabuco/votix/data/app/app/data/candidatos/consulta_cand_2022/consulta_cand_2022_{sigla}.csv', sep=';', encoding='latin1')
+    candidatos_df = pd.read_csv(f'https://raw.githubusercontent.com/amarabuco/votix/data/app/app/data/candidatos/consulta_cand_2022/consulta_cand_2022_{sigla}.csv', sep=';', encoding='latin1')
 
     # candidatos_df = candidatos_df.query(f'CD_CARGO == {cargo_id}')
     candidatos_df = pd.DataFrame(candidatos)
     candidatos_df['PARTIDO'] = candidatos_df['partido'].apply(lambda x:  x['sigla'])
     # candidatos_df
     nome_arquivo = f"{sigla}-{cargo}.csv"
+    PROPS = ['SQ_CANDIDATO',
+            'NM_URNA_CANDIDATO',
+            'NM_PARTIDO',
+            'NR_CANDIDATO',
+            'DS_GENERO',
+            'DS_ESTADO_CIVIL',
+            'DS_COR_RACA',
+            'DS_DETALHE_SITUACAO_CAND',
+            'DS_NACIONALIDADE',
+            'DS_GRAU_INSTRUCAO',
+            'DS_OCUPACAO',
+            'DT_NASCIMENTO',
+            'totalDeBens',
+            'NM_NASCIMENTO',
+            'eleicoesAnteriores',
+            'st_REELEICAO']
+    
 
     try:
         candidatos_completo = pd.read_csv(f"./data/candidatos/{nome_arquivo}")
@@ -149,6 +187,8 @@ if st.button('Consultar'):
         resultado = resultado.query(f"descricaoCorRaca == '{cor}'")
     if(escolaridade != 'TODOS'):
         resultado = resultado.query(f"grauInstrucao == '{escolaridade}'")
+    if(partido != 'TODOS'):
+        resultado = resultado.query(f"partido == '{partido}'")
     if(reeleicao != 'TODOS'):
         resultado = resultado.query(f"st_REELEICAO == {reeleicao}")
 
