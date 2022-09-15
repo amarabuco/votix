@@ -1,0 +1,626 @@
+,siglaUFAutor,idDeputadoAutor,nomeAutor,2019,2020,2021,2022
+0,AC,73943.0,Perpétua Almeida,208.0,400.0,443.0,105.0
+1,AC,141434.0,Flaviano Melo,7.0,3.0,0.0,6.0
+2,AC,178825.0,Leo de Brito,2.0,36.0,198.0,63.0
+3,AC,178836.0,Alan Rick,9.0,40.0,8.0,8.0
+4,AC,178839.0,Jéssica Sales,11.0,39.0,16.0,0.0
+5,AC,204434.0,Dra. Vanda Milani,5.0,3.0,3.0,2.0
+6,AC,204435.0,Jesus Sérgio,312.0,254.0,47.0,11.0
+7,AC,204469.0,Manuel Marcos,59.0,7.0,0.0,0.0
+8,AC,204471.0,Mara Rocha,40.0,56.0,34.0,11.0
+9,AL,160541.0,Arthur Lira,19.0,4.0,0.0,0.0
+10,AL,171617.0,Paulão,13.0,257.0,151.0,38.0
+11,AL,178842.0,JHC,15.0,75.0,0.0,0.0
+12,AL,178842.0,Jhc,8.0,0.0,0.0,0.0
+13,AL,178843.0,Marx Beltrão,31.0,40.0,19.0,2.0
+14,AL,178844.0,Pedro Vilela,0.0,0.0,52.0,11.0
+15,AL,194260.0,Nivaldo Albuquerque,33.0,53.0,245.0,5.0
+16,AL,204436.0,Isnaldo Bulhões Jr.,8.0,11.0,7.0,4.0
+17,AL,204437.0,Severino Pessoa,15.0,2.0,13.0,5.0
+18,AL,204438.0,Sergio Toledo,7.0,0.0,2.0,0.0
+19,AL,204466.0,Tereza Nelma,24.0,121.0,73.0,28.0
+20,AM,74090.0,Átila Lins,7.0,14.0,20.0,4.0
+21,AM,74356.0,Silas Câmara,97.0,10.0,16.0,7.0
+22,AM,204551.0,Bosco Saraiva,8.0,6.0,6.0,0.0
+23,AM,204555.0,José Ricardo,111.0,356.0,239.0,85.0
+24,AM,204556.0,Marcelo Ramos,40.0,42.0,36.0,19.0
+25,AM,204557.0,Sidney Leite,20.0,28.0,32.0,11.0
+26,AM,204569.0,Delegado Pablo,17.0,27.0,43.0,33.0
+27,AM,204572.0,Capitão Alberto Neto,165.0,677.0,415.0,258.0
+28,AM,205234.0,Felipe Souza,15.0,0.0,0.0,0.0
+29,AP,160591.0,Vinicius Gurgel,0.0,4.0,11.0,0.0
+30,AP,160641.0,Professora Marcivania,6.0,77.0,24.0,15.0
+31,AP,160645.0,Luiz Carlos,1.0,0.0,2.0,0.0
+32,AP,178831.0,André Abdon,0.0,2.0,2.0,0.0
+33,AP,204352.0,Camilo Capiberibe,35.0,193.0,46.0,22.0
+34,AP,204353.0,Aline Gurgel,27.0,67.0,40.0,10.0
+35,AP,204375.0,Leda Sadala,0.0,22.0,32.0,14.0
+36,AP,204379.0,Acácio Favacho,5.0,35.0,15.0,4.0
+37,AP,205535.0,Patricia Ferraz,11.0,170.0,0.0,0.0
+38,AP,217330.0,Pedro Dalua,0.0,0.0,0.0,0.0
+39,AP,218245.0,Jorielson,0.0,0.0,2.0,1.0
+40,BA,69871.0,Bacelar,31.0,58.0,29.0,14.0
+41,BA,73808.0,Sérgio Brito,0.0,0.0,2.0,4.0
+42,BA,74057.0,Alice Portugal,31.0,165.0,105.0,24.0
+43,BA,74060.0,Daniel Almeida,38.0,39.0,36.0,14.0
+44,BA,74537.0,Claudio Cajado,2.0,9.0,0.0,0.0
+45,BA,74554.0,José Rocha,4.0,4.0,0.0,6.0
+46,BA,74570.0,Jutahy Junior,1.0,0.0,0.0,0.0
+47,BA,74571.0,Nelson Pellegrino,15.0,0.0,0.0,0.0
+48,BA,74574.0,Paulo Magalhães,0.0,1.0,3.0,0.0
+49,BA,92102.0,Leur Lomanto Júnior,14.0,3.0,0.0,1.0
+50,BA,93083.0,Cacá Leão,2.0,10.0,12.0,7.0
+51,BA,139285.0,Lídice da Mata,27.0,194.0,107.0,71.0
+52,BA,141458.0,João Carlos Bacelar,3.0,5.0,1.0,4.0
+53,BA,150418.0,Márcio Marinho,9.0,22.0,8.0,3.0
+54,BA,160508.0,Afonso Florence,30.0,235.0,149.0,47.0
+55,BA,160553.0,Antonio Brito,4.0,10.0,9.0,10.0
+56,BA,160569.0,Waldenor Pereira,16.0,256.0,127.0,41.0
+57,BA,160600.0,Arthur Oliveira Maia,6.0,6.0,0.0,8.0
+58,BA,160610.0,Valmir Assunção,30.0,375.0,220.0,52.0
+59,BA,160619.0,José Nunes,4.0,10.0,1.0,0.0
+60,BA,160666.0,Félix Mendonça Júnior,8.0,22.0,41.0,10.0
+61,BA,178834.0,Bebeto,0.0,0.0,1.0,0.0
+62,BA,178854.0,Elmar Nascimento,13.0,0.0,2.0,0.0
+63,BA,178857.0,Jorge Solla,27.0,454.0,143.0,40.0
+64,BA,178858.0,Mário Negromonte Jr.,12.0,19.0,9.0,7.0
+65,BA,178860.0,Paulo Azi,4.0,1.0,0.0,0.0
+66,BA,178861.0,Ronaldo Carletto,36.0,48.0,67.0,13.0
+67,BA,178862.0,Tia Eron,3.0,0.0,52.0,0.0
+68,BA,178863.0,Uldurico Junior,9.0,10.0,2.0,4.0
+69,BA,197438.0,Tito,7.0,6.0,12.0,5.0
+70,BA,204553.0,Pastor Sargento Isidório,59.0,31.0,25.0,9.0
+71,BA,204554.0,Abílio Santana,3.0,0.0,5.0,5.0
+72,BA,204558.0,Marcelo Nilo,9.0,50.0,3.0,0.0
+73,BA,204559.0,Zé Neto,29.0,114.0,32.0,35.0
+74,BA,204560.0,Adolfo Viana,8.0,1.0,7.0,3.0
+75,BA,204564.0,Igor Kannário,29.0,6.0,38.0,23.0
+76,BA,204565.0,Professora Dayane Pimentel,29.0,29.0,19.0,10.0
+77,BA,204567.0,Raimundo Costa,9.0,2.0,1.0,0.0
+78,BA,204571.0,Alex Santana,14.0,12.0,15.0,15.0
+79,BA,204573.0,Otto Alencar Filho,31.0,23.0,35.0,17.0
+80,BA,204576.0,João Roma,38.0,10.0,0.0,10.0
+81,BA,205476.0,Charles Fernandes,65.0,5.0,3.0,11.0
+82,BA,209189.0,Joseildo Ramos,8.0,193.0,19.0,22.0
+83,BA,213679.0,Dr. João,0.0,9.0,0.0,0.0
+84,BA,214865.0,Joceval Rodrigues,0.0,0.0,0.0,18.0
+85,CE,62881.0,Danilo Forte,0.0,14.0,17.0,18.0
+86,CE,74212.0,Aníbal Gomes,0.0,0.0,5.0,0.0
+87,CE,74299.0,Leônidas Cristino,11.0,28.0,19.0,10.0
+88,CE,74305.0,Roberto Pessoa,62.0,37.0,0.0,0.0
+89,CE,90201.0,Pedro Augusto Bezerra,45.0,76.0,49.0,11.0
+90,CE,122466.0,Ronaldo Martins,7.0,2.0,0.0,6.0
+91,CE,133439.0,André Figueiredo,64.0,235.0,54.0,46.0
+92,CE,141386.0,Eudes Xavier,1.0,0.0,0.0,0.0
+93,CE,141464.0,José Airton Félix Cirilo,15.0,182.0,49.0,14.0
+94,CE,141470.0,José Guimarães,67.0,539.0,257.0,59.0
+95,CE,143632.0,Domingos Neto,26.0,8.0,4.0,4.0
+96,CE,160669.0,Genecias Noronha,1.0,3.0,1.0,0.0
+97,CE,178866.0,Luizianne Lins,20.0,290.0,101.0,41.0
+98,CE,178868.0,Odorico Monteiro,6.0,1.0,9.0,0.0
+99,CE,178997.0,Moses Rodrigues,5.0,4.0,11.0,8.0
+100,CE,195866.0,Vaidon Oliveira,4.0,8.0,0.0,0.0
+101,CE,204481.0,Dr. Jaziel,36.0,32.0,18.0,37.0
+102,CE,204486.0,Mauro Benevides Filho,1.0,14.0,0.0,2.0
+103,CE,204487.0,Capitão Wagner,65.0,25.0,21.0,3.0
+104,CE,204488.0,Célio Studart,320.0,233.0,115.0,20.0
+105,CE,204489.0,Robério Monteiro,5.0,6.0,4.0,5.0
+106,CE,204533.0,Idilvan Alencar,9.0,31.0,30.0,10.0
+107,CE,204541.0,Eduardo Bismarck,42.0,190.0,92.0,29.0
+108,CE,204542.0,Denis Bezerra,43.0,261.0,81.0,40.0
+109,CE,204548.0,Heitor Freire,142.0,54.0,21.0,25.0
+110,CE,204549.0,AJ Albuquerque,4.0,19.0,4.0,13.0
+111,CE,204549.0,Aj Albuquerque,10.0,0.0,0.0,0.0
+112,CE,204550.0,Júnior Mano,20.0,23.0,12.0,13.0
+113,CE,213854.0,Dr. Agripino Magalhães,0.0,2.0,0.0,0.0
+114,CE,213856.0,Deuzinho Filho,0.0,73.0,0.0,0.0
+115,CE,215361.0,Rachel Marques,0.0,0.0,2.0,0.0
+116,CE,216545.0,Totonho Lopes,2.0,0.0,7.0,0.0
+117,CE,218879.0,Nelho Bezerra,0.0,0.0,0.0,5.0
+118,DF,74806.0,Tadeu Filippelli,0.0,2.0,0.0,0.0
+119,DF,160575.0,Erika Kokay,84.0,517.0,266.0,52.0
+120,DF,204354.0,Flávia Arruda,20.0,48.0,2.0,0.0
+121,DF,204372.0,Julio Cesar Ribeiro,72.0,60.0,32.0,10.0
+122,DF,204374.0,Bia Kicis,31.0,30.0,26.0,18.0
+123,DF,204377.0,Paula Belmonte,76.0,332.0,83.0,27.0
+124,DF,204380.0,Celina Leão,16.0,35.0,68.0,27.0
+125,DF,204381.0,Luis Miranda,73.0,158.0,88.0,75.0
+126,DF,204383.0,Professor Israel Batista,48.0,218.0,125.0,33.0
+127,ES,66179.0,Norma Ayub,15.0,75.0,28.0,28.0
+128,ES,74165.0,Neucimar Fraga,0.0,0.0,44.0,12.0
+129,ES,81297.0,Dra. Soraya Manato,84.0,269.0,105.0,33.0
+130,ES,160517.0,Paulo Foletto,0.0,0.0,0.0,8.0
+131,ES,160534.0,Lauriete,35.0,50.0,18.0,8.0
+132,ES,178871.0,Evair Vieira de Melo,23.0,53.0,26.0,5.0
+133,ES,178871.0,Evair de Melo,1.0,0.0,0.0,0.0
+134,ES,178873.0,Helder Salomão,35.0,394.0,157.0,45.0
+135,ES,178874.0,Sergio Vidigal,27.0,47.0,0.0,0.0
+136,ES,204355.0,Da Vitoria,7.0,11.0,29.0,5.0
+137,ES,204356.0,Amaro Neto,30.0,15.0,9.0,3.0
+138,ES,204371.0,Felipe Rigoni,72.0,120.0,110.0,62.0
+139,ES,206231.0,Ted Conti,21.0,119.0,25.0,2.0
+140,GO,74366.0,João Campos,7.0,7.0,7.0,4.0
+141,GO,74371.0,Rubens Otoni,36.0,251.0,95.0,20.0
+142,GO,121948.0,Adriano do Baldy,12.0,3.0,5.0,0.0
+143,GO,160598.0,Flávia Morais,22.0,41.0,11.0,22.0
+144,GO,164359.0,Delegado Waldir,15.0,36.0,19.0,5.0
+145,GO,166402.0,Magda Mofatto,38.0,4.0,3.0,0.0
+146,GO,178876.0,Célio Silveira,26.0,18.0,21.0,20.0
+147,GO,178879.0,Lucas Vergilio,4.0,25.0,22.0,5.0
+148,GO,179587.0,Major Vitor Hugo,24.0,0.0,0.0,0.0
+149,GO,179587.0,Vitor Hugo,5.0,39.0,49.0,15.0
+150,GO,204386.0,Jose Mario Schreiner,17.0,21.0,26.0,14.0
+151,GO,204389.0,Elias Vaz,88.0,133.0,192.0,57.0
+152,GO,204390.0,Professor Alcides,4.0,4.0,10.0,12.0
+153,GO,204391.0,José Nelto,76.0,63.0,120.0,212.0
+154,GO,204392.0,Francisco Jr.,21.0,17.0,55.0,45.0
+155,GO,204412.0,Dr. Zacharias Calil,15.0,81.0,22.0,10.0
+156,GO,204413.0,Alcides Rodrigues,2.0,0.0,0.0,2.0
+157,GO,204419.0,Glaustin Fokus,40.0,13.0,0.0,0.0
+158,GO,204419.0,Glaustin da Fokus,0.0,4.0,7.0,21.0
+159,MA,74200.0,Gastão Vieira,10.0,20.0,13.0,0.0
+160,MA,81055.0,Márcio Jerry,22.0,46.0,0.0,4.0
+161,MA,112437.0,João Marcelo Souza,0.0,1.0,3.0,6.0
+162,MA,122974.0,Pedro Lucas Fernandes,59.0,66.0,45.0,8.0
+163,MA,128760.0,Paulo Marinho Jr,0.0,6.0,0.0,8.0
+164,MA,141408.0,Cleber Verde,29.0,33.0,20.0,19.0
+165,MA,168175.0,Simplício Araújo,12.0,0.0,0.0,0.0
+166,MA,178881.0,Aluisio Mendes,20.0,35.0,13.0,10.0
+167,MA,178882.0,André Fufuca,8.0,4.0,2.0,0.0
+168,MA,178884.0,Hildo Rocha,28.0,65.0,67.0,45.0
+169,MA,178886.0,Juscelino Filho,9.0,7.0,2.0,3.0
+170,MA,178887.0,Rubens Pereira Júnior,11.0,19.0,55.0,101.0
+171,MA,178888.0,Victor Mendes,0.0,0.0,0.0,5.0
+172,MA,178889.0,Zé Carlos,26.0,220.0,120.0,38.0
+173,MA,204552.0,Eduardo Braide,22.0,17.0,0.0,0.0
+174,MA,204561.0,Bira do Pindaré,56.0,216.0,68.0,56.0
+175,MA,204562.0,Edilázio Júnior,11.0,13.0,9.0,4.0
+176,MA,204563.0,Josimar Maranhãozinho,4.0,5.0,0.0,0.0
+177,MA,204566.0,Marreca Filho,83.0,74.0,15.0,14.0
+178,MA,204570.0,Gildenemyr,9.0,51.0,0.0,0.0
+179,MA,204570.0,Pastor Gil,0.0,11.0,39.0,51.0
+180,MA,204570.0,Pastor Gildenemyr,14.0,0.0,0.0,0.0
+181,MA,204574.0,Junior Lourenço,0.0,0.0,0.0,3.0
+182,MA,204575.0,Gil Cutrim,21.0,15.0,3.0,4.0
+183,MA,212625.0,Dr. Gonçalo,18.0,4.0,10.0,0.0
+184,MA,215043.0,Josivaldo Jp,0.0,0.0,12.0,7.0
+185,MG,73586.0,Júlio Delgado,26.0,90.0,47.0,10.0
+186,MG,74156.0,Leonardo Monteiro,28.0,212.0,174.0,70.0
+187,MG,74158.0,Mário Heringer,79.0,137.0,94.0,15.0
+188,MG,74159.0,Odair Cunha,8.0,103.0,26.0,13.0
+189,MG,74160.0,Patrus Ananias,39.0,444.0,251.0,84.0
+190,MG,74161.0,Reginaldo Lopes,58.0,284.0,43.0,105.0
+191,MG,74585.0,Lincoln Portela,62.0,44.0,15.0,3.0
+192,MG,74646.0,Aécio Neves,19.0,5.0,7.0,2.0
+193,MG,74655.0,Eduardo Barbosa,5.0,54.0,32.0,10.0
+194,MG,74749.0,Mauro Lopes,2.0,2.0,2.0,5.0
+195,MG,92776.0,Stefano Aguiar,1.0,0.0,2.0,0.0
+196,MG,98057.0,Lafayette de Andrada,24.0,10.0,8.0,9.0
+197,MG,141372.0,Aelton Freitas,0.0,0.0,9.0,5.0
+198,MG,141427.0,Fábio Ramalho,4.0,6.0,6.0,2.0
+199,MG,141513.0,Bilac Pinto,3.0,3.0,4.0,5.0
+200,MG,141516.0,Paulo Abi-Ackel,4.0,12.0,5.0,2.0
+201,MG,141531.0,Rodrigo de Castro,2.0,2.0,14.0,0.0
+202,MG,146788.0,Marcelo Aro,1.0,20.0,12.0,4.0
+203,MG,160510.0,Luis Tibé,14.0,27.0,4.0,2.0
+204,MG,160518.0,Weliton Prado,55.0,64.0,47.0,17.0
+205,MG,160556.0,Padre João,46.0,287.0,177.0,53.0
+206,MG,160588.0,Diego Andrade,6.0,37.0,32.0,9.0
+207,MG,160599.0,Dimas Fabiano,1.0,0.0,3.0,4.0
+208,MG,160632.0,Zé Silva,32.0,73.0,27.0,22.0
+209,MG,160640.0,Eros Biondini,11.0,13.0,4.0,7.0
+210,MG,160758.0,Domingos Sávio,22.0,14.0,15.0,9.0
+211,MG,161550.0,Emidinho Madeira,7.0,7.0,2.0,2.0
+212,MG,171619.0,Margarida Salomão,31.0,270.0,0.0,0.0
+213,MG,177282.0,Subtenente Gonzaga,11.0,40.0,21.0,11.0
+214,MG,178895.0,Misael Varella,2.0,2.0,2.0,2.0
+215,MG,178896.0,Newton Cardoso Jr,14.0,31.0,6.0,2.0
+216,MG,179000.0,Marcelo Álvaro Antônio,0.0,0.0,6.0,3.0
+217,MG,198197.0,Greyce Elias,32.0,28.0,34.0,16.0
+218,MG,204480.0,Rogério Correia,53.0,337.0,222.0,82.0
+219,MG,204482.0,Euclydes Pettersen,0.0,4.0,4.0,4.0
+220,MG,204483.0,Vilson da Fetaemg,23.0,169.0,52.0,15.0
+221,MG,204490.0,Charlles Evangelista,11.0,24.0,13.0,3.0
+222,MG,204491.0,Gilberto Abramo,49.0,36.0,5.0,9.0
+223,MG,204492.0,Paulo Guedes,14.0,160.0,94.0,29.0
+224,MG,204494.0,Fred Costa,75.0,37.0,37.0,19.0
+225,MG,204508.0,Igor Timo,53.0,7.0,7.0,12.0
+226,MG,204509.0,Áurea Carolina,130.0,294.0,89.0,58.0
+227,MG,204510.0,Franco Cartafina,23.0,26.0,32.0,2.0
+228,MG,204512.0,Delegado Marcelo Freitas,25.0,24.0,14.0,13.0
+229,MG,204515.0,André Janones,25.0,45.0,10.0,15.0
+230,MG,204517.0,Zé Vitor,45.0,38.0,45.0,25.0
+231,MG,204518.0,Dr. Frederico,31.0,26.0,10.0,8.0
+232,MG,204519.0,Tiago Mitraud,30.0,151.0,90.0,40.0
+233,MG,204520.0,Cabo Junio Amaral,15.0,0.0,0.0,0.0
+234,MG,204520.0,Junio Amaral,20.0,57.0,30.0,17.0
+235,MG,204523.0,Lucas Gonzalez,38.0,106.0,62.0,33.0
+236,MG,204524.0,Pinheirinho,29.0,7.0,30.0,39.0
+237,MG,204539.0,Hercílio Coelho Diniz,44.0,10.0,21.0,2.0
+238,MG,204545.0,Alê Silva,22.0,49.0,47.0,14.0
+239,MG,204547.0,Léo Motta,28.0,7.0,5.0,6.0
+240,MG,207309.0,Enéias Reis,32.0,29.0,0.0,0.0
+241,MG,211866.0,Fabiano Tolentino,21.0,0.0,0.0,0.0
+242,MG,212504.0,Fernando Borja,0.0,11.0,0.0,0.0
+243,MS,74124.0,Marçal Filho,0.0,0.0,1.0,0.0
+244,MS,74376.0,Vander Loubet,14.0,228.0,126.0,37.0
+245,MS,141411.0,Dagoberto Nogueira,12.0,90.0,47.0,15.0
+246,MS,160587.0,Fábio Trad,36.0,65.0,44.0,42.0
+247,MS,178901.0,Tereza Cristina,3.0,0.0,0.0,0.0
+248,MS,204351.0,Dr. Luiz Ovando,14.0,3.0,13.0,7.0
+249,MS,204357.0,Rose Modesto,24.0,79.0,63.0,5.0
+250,MS,204358.0,Beto Pereira,13.0,16.0,2.0,8.0
+251,MS,204382.0,Loester Trutis,10.0,30.0,37.0,22.0
+252,MS,207176.0,Bia Cavassa,13.0,44.0,13.0,0.0
+253,MT,141401.0,Carlos Bezerra,67.0,39.0,361.0,0.0
+254,MT,141552.0,Valtenir Pereira,55.0,0.0,20.0,19.0
+255,MT,146307.0,Neri Geller,6.0,13.0,1.0,6.0
+256,MT,198783.0,Emanuel Pinheiro Neto,30.0,60.0,49.0,3.0
+257,MT,204439.0,Dr. Leonardo,40.0,29.0,17.0,10.0
+258,MT,204449.0,Nelson Barbudo,13.0,19.0,17.0,4.0
+259,MT,204467.0,Professora Rosa Neide,35.0,474.0,214.0,68.0
+260,MT,204472.0,José Medeiros,137.0,26.0,12.0,41.0
+261,MT,204474.0,Juarez Costa,7.0,2.0,2.0,1.0
+262,PA,74075.0,Elcione Barbalho,17.0,22.0,8.0,8.0
+263,PA,74079.0,José Priante,0.0,0.0,4.0,2.0
+264,PA,74352.0,Nilson Pinto,36.0,0.0,2.0,0.0
+265,PA,134812.0,Edmilson Rodrigues,117.0,329.0,0.0,0.0
+266,PA,135054.0,Cristiano Vale,0.0,0.0,0.0,0.0
+267,PA,141335.0,Beto Faro,12.0,228.0,138.0,46.0
+268,PA,160644.0,Miriquinho Batista,1.0,0.0,0.0,0.0
+269,PA,178908.0,Delegado Éder Mauro,11.0,2.0,16.0,8.0
+270,PA,178909.0,Hélio Leite,2.0,19.0,6.0,7.0
+271,PA,178910.0,Joaquim Passarinho,6.0,18.0,7.0,3.0
+272,PA,204495.0,Airton Faleiro,29.0,276.0,170.0,78.0
+273,PA,204496.0,Celso Sabino,64.0,99.0,20.0,18.0
+274,PA,204497.0,Júnior Ferrari,28.0,16.0,5.0,4.0
+275,PA,204498.0,Olival Marques,14.0,3.0,2.0,2.0
+276,PA,204499.0,Cássio Andrade,41.0,109.0,80.0,17.0
+277,PA,204500.0,Eduardo Costa,103.0,114.0,37.0,4.0
+278,PA,204505.0,Vavá Martins,19.0,5.0,7.0,5.0
+279,PA,204538.0,Paulo Bengtson,42.0,602.0,259.0,36.0
+280,PA,215044.0,Vivi Reis,0.0,0.0,149.0,84.0
+281,PB,74043.0,Wellington Roberto,15.0,13.0,3.0,5.0
+282,PB,74044.0,Wilson Santiago,30.0,39.0,45.0,0.0
+283,PB,74467.0,Damião Feliciano,24.0,36.0,5.0,5.0
+284,PB,122195.0,Leonardo Gadelha,0.0,0.0,58.0,1.0
+285,PB,141422.0,Efraim Filho,4.0,29.0,23.0,0.0
+286,PB,160527.0,Aguinaldo Ribeiro,14.0,0.0,6.0,0.0
+287,PB,160635.0,Ruy Carneiro,29.0,21.0,4.0,7.0
+288,PB,160674.0,Hugo Motta,7.0,11.0,5.0,5.0
+289,PB,178912.0,Pedro Cunha Lima,22.0,64.0,11.0,0.0
+290,PB,195143.0,André Amaral,1.0,0.0,0.0,0.0
+291,PB,204393.0,Frei Anastacio Ribeiro,70.0,368.0,172.0,67.0
+292,PB,204394.0,Gervásio Maia,46.0,93.0,18.0,2.0
+293,PB,204420.0,Julian Lemos,106.0,7.0,1.0,2.0
+294,PB,204421.0,Edna Henrique,222.0,88.0,53.0,10.0
+295,PB,216313.0,Rafafá,0.0,0.0,15.0,0.0
+296,PB,218741.0,Patrick Dorneles,0.0,0.0,0.0,5.0
+297,PB,220008.0,Eliza Virgínia,0.0,0.0,0.0,6.0
+298,PE,72442.0,Felipe Carreras,182.0,132.0,91.0,37.0
+299,PE,73801.0,Renildo Calheiros,8.0,67.0,24.0,7.0
+300,PE,74047.0,Paulo Rubem Santiago,1.0,0.0,0.0,0.0
+301,PE,74419.0,Gonzaga Patriota,16.0,44.0,29.0,5.0
+302,PE,74439.0,Wolney Queiroz,6.0,108.0,25.0,12.0
+303,PE,74471.0,André de Paula,28.0,34.0,25.0,7.0
+304,PE,74478.0,Luciano Bivar,5.0,2.0,5.0,4.0
+305,PE,92172.0,Milton Coelho,0.0,0.0,27.0,13.0
+306,PE,92699.0,Fernando Monteiro,10.0,5.0,0.0,0.0
+307,PE,141421.0,Eduardo da Fonte,27.0,63.0,88.0,36.0
+308,PE,141431.0,Fernando Coelho Filho,2.0,4.0,3.0,0.0
+309,PE,141523.0,Raul Henry,18.0,22.0,8.0,2.0
+310,PE,157130.0,Túlio Gadêlha,30.0,174.0,59.0,53.0
+311,PE,160528.0,Danilo Cabral,44.0,202.0,66.0,36.0
+312,PE,160642.0,Pastor Eurico,44.0,4.0,10.0,33.0
+313,PE,160665.0,Augusto Coutinho,31.0,9.0,13.0,7.0
+314,PE,178916.0,Daniel Coelho,33.0,20.0,16.0,22.0
+315,PE,178920.0,Ricardo Teobaldo,14.0,3.0,0.0,0.0
+316,PE,178921.0,Sebastião Oliveira,19.0,4.0,7.0,4.0
+317,PE,178922.0,Tadeu Alencar,48.0,38.0,24.0,6.0
+318,PE,204422.0,Ossesio Silva,53.0,33.0,19.0,9.0
+319,PE,204423.0,André Ferreira,23.0,5.0,5.0,2.0
+320,PE,204425.0,Silvio Costa Filho,5.0,9.0,5.0,2.0
+321,PE,204426.0,Carlos Veras,27.0,345.0,188.0,85.0
+322,PE,204427.0,Fernando Rodolfo,39.0,41.0,18.0,11.0
+323,PE,204428.0,Marília Arraes,44.0,268.0,182.0,25.0
+324,PE,204429.0,João H. Campos,67.0,207.0,0.0,0.0
+325,PI,67138.0,Iracema Portella,16.0,6.0,13.0,2.0
+326,PI,74317.0,Júlio Cesar,2.0,0.0,9.0,9.0
+327,PI,74319.0,Paes Landim,0.0,21.0,0.0,2.0
+328,PI,74459.0,Átila Lira,5.0,2.0,4.0,6.0
+329,PI,159237.0,Assis Carvalho,60.0,139.0,0.0,0.0
+330,PI,178924.0,Capitão Fábio Abreu,1.0,14.0,20.0,11.0
+331,PI,178925.0,Rejane Dias,90.0,548.0,220.0,117.0
+332,PI,188097.0,Merlong Solano,7.0,81.0,77.0,19.0
+333,PI,191923.0,Flavio Nogueira,12.0,0.0,0.0,0.0
+334,PI,191923.0,Flávio Nogueira,12.0,29.0,20.0,26.0
+335,PI,204430.0,Margarete Coelho,15.0,56.0,21.0,5.0
+336,PI,204431.0,Marcos Aurélio Sampaio,15.0,1.0,0.0,6.0
+337,PI,204432.0,Marina Santos,5.0,28.0,9.0,5.0
+338,PR,73460.0,Gustavo Fruet,19.0,46.0,82.0,39.0
+339,PR,73463.0,Osmar Serraglio,0.0,0.0,0.0,4.0
+340,PR,73466.0,Rubens Bueno,91.0,88.0,45.0,36.0
+341,PR,73772.0,Hermes Parcianello,103.0,0.0,238.0,2.0
+342,PR,73788.0,Ricardo Barros,11.0,4.0,17.0,8.0
+343,PR,74383.0,Giacobo,0.0,0.0,2.0,0.0
+344,PR,107283.0,Gleisi Hoffmann,34.0,255.0,126.0,42.0
+345,PR,132504.0,Enio Verri,10.0,378.0,146.0,28.0
+346,PR,160592.0,Zeca Dirceu,15.0,157.0,46.0,26.0
+347,PR,160621.0,Sandro Alex,0.0,0.0,0.0,0.0
+348,PR,162332.0,Luiz Nishimori,28.0,26.0,12.0,4.0
+349,PR,178832.0,Leandre,48.0,117.0,61.0,12.0
+350,PR,178927.0,Aliel Machado,51.0,130.0,43.0,4.0
+351,PR,178928.0,Christiane de Souza Yared,3.0,4.0,8.0,4.0
+352,PR,178929.0,Diego Garcia,38.0,29.0,22.0,27.0
+353,PR,178930.0,Evandro Roman,7.0,0.0,0.0,0.0
+354,PR,178930.0,Roman,3.0,9.0,11.0,9.0
+355,PR,178931.0,Luciano Ducci,18.0,141.0,24.0,28.0
+356,PR,178933.0,Sergio Souza,17.0,5.0,4.0,8.0
+357,PR,178934.0,Toninho Wandscheer,15.0,15.0,2.0,0.0
+358,PR,193726.0,Paulo Eduardo Martins,13.0,23.0,50.0,59.0
+359,PR,204384.0,Ney Leprevost,0.0,56.0,0.0,75.0
+360,PR,204387.0,Sargento Fahur,8.0,9.0,21.0,20.0
+361,PR,204395.0,Pedro Lupion,16.0,10.0,2.0,12.0
+362,PR,204396.0,Vermelho,5.0,23.0,13.0,11.0
+363,PR,204397.0,Boca Aberta,494.0,11.0,43.0,0.0
+364,PR,204398.0,Felipe Francischini,11.0,5.0,0.0,12.0
+365,PR,204399.0,Schiavinato,47.0,45.0,12.0,0.0
+366,PR,204400.0,Aline Sleutjes,18.0,23.0,28.0,16.0
+367,PR,204410.0,Luisa Canziani,16.0,83.0,25.0,9.0
+368,PR,204411.0,Filipe Barros,53.0,61.0,62.0,34.0
+369,PR,204414.0,Aroldo Martins,11.0,36.0,3.0,10.0
+370,PR,204418.0,Luizão Goulart,12.0,76.0,44.0,24.0
+371,PR,204418.0,Professor Luizão Goulart,2.0,0.0,0.0,0.0
+372,PR,205865.0,Reinhold Stephanes Junior,11.0,8.0,15.0,3.0
+373,PR,219585.0,Marco Brasil,0.0,0.0,0.0,9.0
+374,RJ,73701.0,Benedita da Silva,30.0,332.0,145.0,46.0
+375,RJ,74171.0,Chico Alencar,1.0,0.0,0.0,0.0
+376,RJ,74253.0,Julio Lopes,0.0,0.0,36.0,15.0
+377,RJ,74254.0,Leonardo Picciani,0.0,0.0,5.0,0.0
+378,RJ,74693.0,Rodrigo Maia,2.0,3.0,0.0,0.0
+379,RJ,74848.0,Jandira Feghali,33.0,186.0,64.0,28.0
+380,RJ,74856.0,Laura Carneiro,3.0,0.0,10.0,0.0
+381,RJ,76874.0,Marcelo Freixo,144.0,402.0,150.0,7.0
+382,RJ,115746.0,Gelson Azevedo,6.0,0.0,4.0,0.0
+383,RJ,122158.0,Pedro Paulo,23.0,9.0,0.0,5.0
+384,RJ,133968.0,Paulo Ramos,25.0,106.0,72.0,18.0
+385,RJ,141439.0,Chico D'Angelo,20.0,27.0,41.0,55.0
+386,RJ,141450.0,Hugo Leal,37.0,48.0,31.0,9.0
+387,RJ,141515.0,Otavio Leite,0.0,0.0,64.0,4.0
+388,RJ,152605.0,Glauber Braga,120.0,264.0,116.0,46.0
+389,RJ,160511.0,Alessandro Molon,71.0,303.0,52.0,8.0
+390,RJ,160512.0,Aureo,0.0,0.0,1.0,0.0
+391,RJ,160512.0,Aureo Ribeiro,53.0,52.0,41.0,25.0
+392,RJ,178833.0,Alexandre Serfiotis,8.0,35.0,0.0,0.0
+393,RJ,178937.0,Altineu Côrtes,12.0,0.0,22.0,10.0
+394,RJ,178939.0,Clarissa Garotinho,18.0,51.0,4.0,11.0
+395,RJ,178943.0,Marcos Soares,0.0,0.0,10.0,2.0
+396,RJ,178945.0,Rosangela Gomes,5.0,16.0,43.0,10.0
+397,RJ,178946.0,Soraya Santos,12.0,44.0,17.0,11.0
+398,RJ,178947.0,Sóstenes Cavalcante,24.0,3.0,22.0,17.0
+399,RJ,191945.0,Zé Augusto Nalin,0.0,0.0,3.0,0.0
+400,RJ,196358.0,Lourival Gomes,22.0,0.0,6.0,0.0
+401,RJ,204433.0,Marcelo Calero,109.0,283.0,6.0,70.0
+402,RJ,204440.0,Christino Aureo,11.0,35.0,30.0,18.0
+403,RJ,204441.0,Otoni de Paula,44.0,22.0,12.0,13.0
+404,RJ,204442.0,Gurgel,20.0,38.0,42.0,20.0
+405,RJ,204444.0,Helio Lopes,96.0,20.0,84.0,25.0
+406,RJ,204446.0,Professor Joziel,10.0,48.0,33.0,4.0
+407,RJ,204447.0,Flordelis,15.0,24.0,2.0,0.0
+408,RJ,204448.0,Luiz Antônio Corrêa,7.0,13.0,2.0,17.0
+409,RJ,204450.0,Dr. Luiz Antonio Teixeira Jr.,38.0,54.0,30.0,10.0
+410,RJ,204451.0,Delegado Antônio Furtado,13.0,42.0,33.0,19.0
+411,RJ,204452.0,Márcio Labre,29.0,12.0,24.0,8.0
+412,RJ,204454.0,Daniel Silveira,49.0,47.0,31.0,14.0
+413,RJ,204455.0,Luiz Lima,75.0,19.0,56.0,38.0
+414,RJ,204456.0,Gutemberg Reis,29.0,12.0,1.0,9.0
+415,RJ,204457.0,Juninho do Pneu,88.0,38.0,37.0,32.0
+416,RJ,204458.0,Major Fabiana,3.0,82.0,60.0,26.0
+417,RJ,204459.0,Daniela do Waguinho,18.0,30.0,22.0,22.0
+418,RJ,204460.0,Carlos Jordy,25.0,31.0,22.0,14.0
+419,RJ,204461.0,Paulo Ganime,39.0,150.0,81.0,29.0
+420,RJ,204462.0,Chris Tonietto,44.0,110.0,83.0,23.0
+421,RJ,204463.0,Wladimir Garotinho,32.0,38.0,0.0,0.0
+422,RJ,204464.0,Talíria Petrone,139.0,284.0,194.0,92.0
+423,RJ,204476.0,Chiquinho Brazão,30.0,28.0,25.0,3.0
+424,RJ,204477.0,Felício Laterça,13.0,43.0,14.0,30.0
+425,RJ,204478.0,Vinicius Farah,50.0,40.0,19.0,18.0
+426,RJ,205548.0,David Miranda,87.0,369.0,134.0,19.0
+427,RJ,205550.0,Jorge Braz,9.0,0.0,1.0,2.0
+428,RJ,211649.0,Ricardo Pericar,2.0,0.0,0.0,0.0
+429,RJ,212749.0,Marcão Gomes,0.0,10.0,0.0,0.0
+430,RJ,215042.0,Ricardo da Karol,0.0,0.0,5.0,0.0
+431,RJ,215045.0,Pedro Augusto Palareti,0.0,0.0,49.0,0.0
+432,RJ,217480.0,Jones Moura,0.0,0.0,0.0,2.0
+433,RN,74037.0,Fátima Bezerra,1.0,0.0,0.0,0.0
+434,RN,109429.0,Benes Leocádio,16.0,33.0,33.0,4.0
+435,RN,141428.0,Fábio Faria,33.0,4.0,0.0,0.0
+436,RN,141459.0,João Maia,14.0,22.0,4.0,2.0
+437,RN,178948.0,Beto Rosado,16.0,25.0,13.0,11.0
+438,RN,178951.0,Rafael Motta,86.0,107.0,13.0,17.0
+439,RN,178952.0,Walter Alves,15.0,29.0,25.0,10.0
+440,RN,204453.0,Natália Bonavides,39.0,272.0,163.0,64.0
+441,RN,204473.0,General Girão,12.0,45.0,27.0,16.0
+442,RN,213762.0,Carla Dickson,10.0,25.0,58.0,24.0
+443,RO,108338.0,Jaqueline Cassol,11.0,53.0,34.0,15.0
+444,RO,141508.0,Mauro Nazif,49.0,187.0,35.0,30.0
+445,RO,167722.0,Marcos Rogério,3.0,0.0,0.0,0.0
+446,RO,178953.0,Expedito Netto,36.0,9.0,9.0,4.0
+447,RO,178954.0,Lucio Mosquini,39.0,41.0,22.0,20.0
+448,RO,178956.0,Mariana Carvalho,34.0,149.0,20.0,5.0
+449,RO,204359.0,Léo Moraes,62.0,268.0,69.0,49.0
+450,RO,204360.0,Silvia Cristina,9.0,21.0,9.0,12.0
+451,RO,204378.0,Coronel Chrisóstomo,22.0,21.0,16.0,5.0
+452,RO,219592.0,Lucas Follador,0.0,0.0,0.0,3.0
+453,RR,141417.0,Edio Lopes,4.0,0.0,4.0,2.0
+454,RR,160531.0,Jhonatan de Jesus,18.0,6.0,5.0,5.0
+455,RR,178959.0,Hiran Gonçalves,19.0,60.0,11.0,2.0
+456,RR,178961.0,Shéridan,12.0,72.0,13.0,1.0
+457,RR,204465.0,Haroldo Cathedral,0.0,9.0,12.0,4.0
+458,RR,204468.0,Joenia Wapichana,25.0,67.0,34.0,24.0
+459,RR,204475.0,Otaci Nascimento,9.0,0.0,0.0,0.0
+460,RR,204475.0,Ottaci Nascimento,2.0,4.0,5.0,2.0
+461,RR,204479.0,Nicoletti,22.0,44.0,62.0,13.0
+462,RR,214477.0,Rrenato Queiroz,0.0,0.0,0.0,6.0
+463,RS,73482.0,Henrique Fontana,11.0,136.0,87.0,29.0
+464,RS,73486.0,Pompeo de Mattos,51.0,160.0,90.0,37.0
+465,RS,73692.0,Osmar Terra,0.0,1.0,6.0,15.0
+466,RS,73891.0,Darcísio Perondi,5.0,0.0,0.0,0.0
+467,RS,74398.0,Maria do Rosário,51.0,392.0,161.0,68.0
+468,RS,74399.0,Onyx Lorenzoni,0.0,0.0,0.0,5.0
+469,RS,74400.0,Paulo Pimenta,51.0,223.0,98.0,40.0
+470,RS,75431.0,Maurício Dziedricki,13.0,44.0,15.0,5.0
+471,RS,90842.0,Santini,14.0,55.0,3.0,0.0
+472,RS,133810.0,Marcelo Moraes,14.0,38.0,8.0,174.0
+473,RS,136811.0,Afonso Hamm,7.0,12.0,5.0,6.0
+474,RS,156190.0,Marcel Van Hattem,23.0,10.0,0.0,0.0
+475,RS,156190.0,Marcel van Hattem,0.0,129.0,60.0,20.0
+476,RS,160535.0,Marcon,49.0,346.0,208.0,74.0
+477,RS,160538.0,Bohn Gass,27.0,146.0,227.0,64.0
+478,RS,160552.0,Danrlei de Deus Hinterholz,5.0,16.0,8.0,0.0
+479,RS,160559.0,Alceu Moreira,26.0,9.0,8.0,5.0
+480,RS,160570.0,Jerônimo Goergen,67.0,73.0,43.0,17.0
+481,RS,160673.0,Giovani Cherini,37.0,33.0,36.0,13.0
+482,RS,178835.0,Afonso Motta,31.0,12.0,4.0,2.0
+483,RS,178962.0,Carlos Gomes,6.0,9.0,1.0,4.0
+484,RS,178963.0,Covatti Filho,2.0,0.0,6.0,2.0
+485,RS,178964.0,Heitor Schuch,20.0,64.0,30.0,7.0
+486,RS,178996.0,Giovani Feltes,2.0,0.0,0.0,4.0
+487,RS,179001.0,Márcio Biolchi,2.0,3.0,4.0,0.0
+488,RS,204388.0,Bibo Nunes,45.0,32.0,47.0,30.0
+489,RS,204403.0,Marlon Santos,5.0,2.0,0.0,3.0
+490,RS,204404.0,Lucas Redecker,22.0,81.0,20.0,9.0
+491,RS,204405.0,Liziane Bayer,30.0,10.0,6.0,9.0
+492,RS,204406.0,Pedro Westphalen,21.0,27.0,30.0,6.0
+493,RS,204407.0,Fernanda Melchionna,166.0,509.0,163.0,67.0
+494,RS,204409.0,Daniel Trzeciak,8.0,12.0,5.0,2.0
+495,RS,204415.0,Nereu Crispim,29.0,71.0,131.0,75.0
+496,RS,204416.0,Sanderson,92.0,43.0,39.0,28.0
+497,RS,205863.0,Marcelo Brum,12.0,63.0,31.0,3.0
+498,RS,216544.0,Paulo Vicente Caleffi,0.0,0.0,7.0,2.0
+499,SC,73696.0,Angela Amin,19.0,40.0,15.0,9.0
+500,SC,116379.0,Darci de Matos,24.0,16.0,47.0,47.0
+501,SC,141405.0,Celso Maldaner,5.0,38.0,3.0,11.0
+502,SC,160604.0,Pedro Uczai,43.0,312.0,184.0,65.0
+503,SC,160649.0,Esperidião Amin,0.0,0.0,1.0,0.0
+504,SC,160651.0,Rogério Peninha Mendonça,26.0,30.0,6.0,12.0
+505,SC,164360.0,Carmen Zanotto,49.0,195.0,61.0,37.0
+506,SC,178966.0,Geovania de Sá,5.0,37.0,18.0,17.0
+507,SC,204361.0,Carlos Chiodini,17.0,51.0,14.0,11.0
+508,SC,204362.0,Ricardo Guidi,8.0,9.0,0.0,7.0
+509,SC,204365.0,Gilson Marques,27.0,78.0,39.0,16.0
+510,SC,204366.0,Rodrigo Coelho,29.0,133.0,18.0,5.0
+511,SC,204367.0,Daniel Freitas,9.0,24.0,8.0,7.0
+512,SC,204368.0,Fabio Schiochet,35.0,26.0,3.0,6.0
+513,SC,204369.0,Caroline de Toni,21.0,21.0,13.0,27.0
+514,SC,204373.0,Hélio Costa,9.0,11.0,11.0,2.0
+515,SC,204376.0,Coronel Armando,14.0,60.0,54.0,38.0
+516,SC,214445.0,Nilson F. Stainsack,0.0,9.0,0.0,0.0
+517,SC,214694.0,Jorge Goetten,0.0,10.0,0.0,0.0
+518,SC,216198.0,Norma Pereira,0.0,0.0,2.0,0.0
+519,SE,68720.0,Fábio Henrique,27.0,22.0,25.0,8.0
+520,SE,74052.0,Bosco Costa,66.0,43.0,35.0,20.0
+521,SE,105534.0,Alexandre Figueiredo,0.0,0.0,0.0,1.0
+522,SE,151208.0,Laercio Oliveira,8.0,21.0,11.0,9.0
+523,SE,160542.0,Márcio Macêdo,0.0,0.0,0.0,14.0
+524,SE,171623.0,Fabio Reis,23.0,43.0,4.0,4.0
+525,SE,178969.0,Fábio Mitidieri,11.0,5.0,24.0,0.0
+526,SE,178970.0,João Daniel,80.0,511.0,233.0,98.0
+527,SE,204385.0,Valdevan Noventa,9.0,10.0,6.0,0.0
+528,SE,204408.0,Gustinho Ribeiro,46.0,2.0,1.0,4.0
+529,SP,66828.0,Fausto Pinato,11.0,62.0,32.0,11.0
+530,SP,73433.0,Arlindo Chinaglia,11.0,125.0,14.0,23.0
+531,SP,73441.0,Celso Russomanno,26.0,0.0,11.0,8.0
+532,SP,73531.0,Ivan Valente,273.0,534.0,150.0,62.0
+533,SP,73584.0,Antonio Carlos Mendes Thame,1.0,1.0,0.0,0.0
+534,SP,73604.0,Rui Falcão,21.0,166.0,54.0,12.0
+535,SP,74262.0,Carlos Sampaio,24.0,56.0,13.0,18.0
+536,SP,74270.0,Gilberto Nascimento,10.0,5.0,0.0,4.0
+537,SP,74273.0,Jefferson Campos,3.0,0.0,33.0,15.0
+538,SP,74275.0,José Mentor,0.0,0.0,0.0,1.0
+539,SP,74283.0,Vicentinho,8.0,267.0,107.0,46.0
+540,SP,74784.0,Luiza Erundina,92.0,393.0,92.0,55.0
+541,SP,92346.0,Eduardo Bolsonaro,19.0,23.0,6.0,8.0
+542,SP,141383.0,Antonio Bulhões,0.0,3.0,0.0,0.0
+543,SP,141391.0,Arnaldo Jardim,10.0,60.0,15.0,13.0
+544,SP,141398.0,Carlos Zarattini,14.0,74.0,94.0,32.0
+545,SP,141472.0,Ricardo Tripoli,1.0,0.0,0.0,0.0
+546,SP,141488.0,Paulo Teixeira,36.0,484.0,229.0,76.0
+547,SP,141518.0,Paulinho da Força,0.0,0.0,0.0,4.0
+548,SP,141518.0,Paulo Pereira da Silva,2.0,0.0,1.0,0.0
+549,SP,141553.0,Vanderlei Macris,12.0,5.0,8.0,0.0
+550,SP,141555.0,Vinicius Carvalho,15.0,12.0,15.0,18.0
+551,SP,152610.0,Roberto Alves,24.0,24.0,7.0,8.0
+552,SP,154178.0,Milton Vieira,14.0,16.0,8.0,6.0
+553,SP,154919.0,Eleuses Paiva,0.0,0.0,0.0,4.0
+554,SP,160532.0,Eli Corrêa Filho,8.0,2.0,1.0,0.0
+555,SP,160545.0,Alexandre Leite,13.0,7.0,4.0,2.0
+556,SP,160558.0,Paulo Freire Costa,6.0,0.0,0.0,10.0
+557,SP,160589.0,Bruna Furlan,4.0,9.0,0.0,0.0
+558,SP,160601.0,Pr. Marco Feliciano,13.0,4.0,13.0,7.0
+559,SP,160653.0,Roberto de Lucena,127.0,77.0,97.0,39.0
+560,SP,160655.0,Ricardo Izar,44.0,64.0,20.0,19.0
+561,SP,160667.0,Guilherme Mussi,7.0,3.0,2.0,0.0
+562,SP,160976.0,Tiririca,20.0,9.0,6.0,8.0
+563,SP,178829.0,Capitão Augusto,24.0,20.0,16.0,18.0
+564,SP,178830.0,Dr. Sinval Malheiros,2.0,14.0,0.0,0.0
+565,SP,178972.0,Alex Manente,21.0,11.0,50.0,25.0
+566,SP,178975.0,Baleia Rossi,40.0,15.0,5.0,2.0
+567,SP,178977.0,Eduardo Cury,16.0,2.0,6.0,5.0
+568,SP,178981.0,Herculano Passos,13.0,7.0,9.0,5.0
+569,SP,178983.0,Marcio Alvino,3.0,7.0,3.0,6.0
+570,SP,178984.0,Miguel Haddad,4.0,6.0,2.0,0.0
+571,SP,178985.0,Miguel Lombardi,9.0,24.0,13.0,7.0
+572,SP,178986.0,Nilto Tatto,81.0,469.0,265.0,95.0
+573,SP,178987.0,Orlando Silva,27.0,122.0,36.0,32.0
+574,SP,178989.0,Renata Abreu,123.0,7.0,61.0,6.0
+575,SP,178990.0,Samuel Moreira,9.0,5.0,9.0,13.0
+576,SP,178992.0,Vitor Lippi,4.0,19.0,4.0,0.0
+577,SP,204484.0,General Peternelli,12.0,77.0,38.0,17.0
+578,SP,204485.0,Luiz Carlos Motta,6.0,38.0,20.0,6.0
+579,SP,204501.0,Alencar Santana,0.0,0.0,0.0,55.0
+580,SP,204501.0,Alencar Santana Braga,19.0,321.0,119.0,13.0
+581,SP,204502.0,Bozzella,0.0,9.0,20.0,3.0
+582,SP,204502.0,Júnior Bozzella,33.0,10.0,0.0,0.0
+583,SP,204503.0,Alexandre Padilha,59.0,523.0,184.0,65.0
+584,SP,204504.0,Cezinha de Madureira,16.0,23.0,15.0,6.0
+585,SP,204506.0,Marcos Pereira,30.0,5.0,12.0,2.0
+586,SP,204507.0,Carla Zambelli,31.0,60.0,52.0,39.0
+587,SP,204511.0,David Soares,92.0,44.0,33.0,24.0
+588,SP,204513.0,Guiga Peixoto,13.0,48.0,18.0,50.0
+589,SP,204514.0,Coronel Tadeu,80.0,54.0,47.0,30.0
+590,SP,204516.0,Alexis Fonteyne,32.0,127.0,70.0,34.0
+591,SP,204521.0,Abou Anni,21.0,23.0,26.0,25.0
+592,SP,204522.0,Marco Bertaiolli,11.0,2.0,16.0,6.0
+593,SP,204525.0,Rosana Valle,28.0,137.0,45.0,19.0
+594,SP,204526.0,Luiz Philippe de Orleans e Bragança,84.0,112.0,35.0,22.0
+595,SP,204527.0,Geninho Zuliani,39.0,147.0,79.0,81.0
+596,SP,204528.0,Adriana Ventura,22.0,215.0,118.0,54.0
+597,SP,204529.0,Policial Katia Sastre,35.0,50.0,33.0,28.0
+598,SP,204530.0,Rodrigo Agostinho,120.0,76.0,78.0,45.0
+599,SP,204531.0,Capitão Derrite,0.0,0.0,0.0,7.0
+600,SP,204531.0,Guilherme Derrite,40.0,85.0,20.0,4.0
+601,SP,204532.0,Vinicius Poit,25.0,115.0,62.0,6.0
+602,SP,204534.0,Tabata Amaral,34.0,223.0,171.0,107.0
+603,SP,204535.0,Sâmia Bomfim,153.0,392.0,160.0,76.0
+604,SP,204536.0,Kim Kataguiri,46.0,108.0,124.0,45.0
+605,SP,204537.0,Enrico Misasi,13.0,36.0,6.0,5.0
+606,SP,204540.0,Maria Rosas,31.0,59.0,24.0,31.0
+607,SP,204543.0,Luiz Flávio Gomes,52.0,0.0,0.0,0.0
+608,SP,204543.0,Professor Luiz Flávio Gomes,3.0,0.0,0.0,0.0
+609,SP,204544.0,Alexandre Frota,19.0,678.0,406.0,242.0
+610,SP,204546.0,Joice Hasselmann,18.0,71.0,58.0,7.0
+611,SP,213274.0,Ricardo Silva,0.0,180.0,303.0,28.0
+612,SP,217036.0,Henrique do Paraíso,0.0,0.0,7.0,0.0
+613,SP,218086.0,Ely Santos,0.0,0.0,1.0,5.0
+614,SP,219599.0,Sargento Alexandre,0.0,0.0,0.0,18.0
+615,TO,137070.0,Vicentinho Júnior,17.0,20.0,13.0,8.0
+616,TO,141480.0,Lázaro Botelho,0.0,0.0,0.0,0.0
+617,TO,143084.0,Tiago Dimas,16.0,19.0,19.0,8.0
+618,TO,160639.0,Professora Dorinha Seabra Rezende,12.0,96.0,33.0,15.0
+619,TO,178993.0,Carlos Henrique Gaguim,61.0,10.0,186.0,49.0
+620,TO,178994.0,Dulce Miranda,16.0,74.0,15.0,5.0
+621,TO,204363.0,Osires Damaso,4.0,9.0,13.0,0.0
+622,TO,204364.0,Eli Borges,31.0,13.0,6.0,10.0
+623,TO,204370.0,Célio Moura,23.0,342.0,158.0,63.0
+624,TO,219568.0,Tiago Andrino,0.0,0.0,0.0,8.0
