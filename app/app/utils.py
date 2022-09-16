@@ -2,6 +2,7 @@ from datetime import datetime
 import pandas as pd
 
 
+
 def get_score(df):
     escolaridade = {'Lê e escreve':0, 'Ensino Fundamental incompleto':1, 'Ensino Fundamental completo':2, 'Ensino Médio incompleto':2.5, 'Ensino Médio completo':3, 
                     'Superior incompleto':4, 'Superior completo':5}
