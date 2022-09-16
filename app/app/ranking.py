@@ -26,11 +26,11 @@ st.write(""" # 📊  Votix """)
 st.success(""" ## Ranking """)
 st.write(""" Veja a pontuação dos candidatos. """)
 
-uf = ["AC","AL","AM","AP","BA","CE","DF","ES","GO","MA","MG","MS","MT","PA","PB","PE","PI","PR","RJ","RN","RO","RR","RS","SC","SE","SP","TO"]
+uf = ["AC","AL","AM","AP","BA","CE","DF","ES","GO","MA","MG","MS","MT","PA","PB","PE","PI","PR","RJ","RN","RO","RR","RS","SC","SE","SP","TO", "BR"]
 
 sigla = st.selectbox(
     'Estado',
-     uf, 15)
+     uf, 0)
 
 cargos = pd.read_json('https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/cargos.json')
 # cargos = pd.read_json('/Volumes/EXT/myApps/votix/app/app/data/cargos.json')
@@ -100,7 +100,7 @@ st.info(f""" ## {sigla} | {cargo} """)
 
 # f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2022/{sigla}/2040602022/{cargo_id}/candidatos"
 # candidatos = requests.get(f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2022/{sigla}/2040602022/{cargo_id}/candidatos", headers=headers ).json()['candidatos']
-candidatos_df = pd.read_csv(f'https://raw.githubusercontent.com/amarabuco/votix/data/app/app/data/candidatos/consulta_cand_2022/consulta_cand_2022_{sigla}.csv', sep=';', encoding='latin1')
+# candidatos_df = pd.read_csv(f'https://raw.githubusercontent.com/amarabuco/votix/data/app/app/data/candidatos/consulta_cand_2022/consulta_cand_2022_{sigla}.csv', sep=';', encoding='latin1')
 
 
 # candidatos_df = candidatos_df.query(f'CD_CARGO == {cargo_id}')
@@ -199,18 +199,23 @@ if(reeleicao != 'TODOS'):
 
 # st.write(resultado.reset_index())
 bens = pd.read_csv('https://raw.githubusercontent.com/amarabuco/votix/data/app/app/data/bens/bens-ano.csv', float_precision='round_trip', index_col=0)
-resultado = candidatos_df[PROPS]
+resultado = candidatos_df[PROPS].sort_values('NM_URNA_CANDIDATO')
 st.info('Candidatos')
 st.write(resultado)
     
 st.info('Bens declarados')
-resultado_bens = candidatos_df.merge(bens, on='SQ_CANDIDATO')
+resultado_bens = candidatos_df.merge(bens, on='SQ_CANDIDATO').sort_values('NM_URNA_CANDIDATO')
 resultado_bens['DIFERENCA'] = resultado_bens['2022'] - resultado_bens['2018']
 # resultado_bens = resultado_bens.sort_values('DIFERENCA', ascending=False)
 st.write(resultado_bens[['NM_URNA_CANDIDATO', 'NR_CANDIDATO','SG_PARTIDO','2010','2014','2018','2022', 'DIFERENCA']])
 # st.write(resultado.drop('eleicoesAnteriores', axis=1)[cols].sort_values('ranking', ascending=False))
 # st.markdown('Mais informações na página **candidato** no menu lateral.')
 # st.markdown('Descrição da pontuação na página **sobre** no menu lateral.')
+       
+fig = px.scatter(resultado_bens.reset_index(),  x='2022', y='2018', color='ST_REELEICAO', hover_data=['NM_URNA_CANDIDATO','NR_CANDIDATO','SG_PARTIDO'])
+st.plotly_chart(fig, use_container_width=True)
+
+
 st.write(f"👉 <a target='_blank' href='https://tinyurl.com/votix-br/candidato'> Candidato </a>", unsafe_allow_html=True)
 st.write(f"👉 <a target='_blank' href='https://tinyurl.com/votix-br/sobre'> Pontuação </a>", unsafe_allow_html=True)
 # if st.button('Candidato'):
@@ -220,6 +225,3 @@ st.write(f"👉 <a target='_blank' href='https://tinyurl.com/votix-br/sobre'> Po
 
 # st.write(resultado.drop('eleicoesAnteriores', axis=1))
 
-       
-fig = px.scatter(resultado_bens.reset_index(),  x='2022', y='2018', color='ST_REELEICAO', hover_data=['NM_URNA_CANDIDATO','NR_CANDIDATO','SG_PARTIDO'])
-st.plotly_chart(fig, use_container_width=True)

@@ -1,5 +1,21 @@
 [
   {
+    "codigo": 1,
+    "sigla": null,
+    "nome": "Presidente",
+    "codSuperior": 0,
+    "titular": false,
+    "contagem": 11
+  },
+  {
+    "codigo": 2,
+    "sigla": null,
+    "nome": "Vice-Presidente",
+    "codSuperior": 0,
+    "titular": false,
+    "contagem": 11
+  },
+  {
     "codigo": 3,
     "sigla": null,
     "nome": "Governador",
