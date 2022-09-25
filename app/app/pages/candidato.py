@@ -99,6 +99,7 @@ st.info('### Informações')
 col1, col2, col3 = st.columns(3)
 with col1:
     st.image(candidato['fotoUrl'])
+    st.write(f'### {candidato["numero"]} ###')
     releeicao = 'Sim' if candidato['st_REELEICAO'] == True else 'Não'
     st.write('Reeleição:', releeicao)
     wk = f"https://pt.wikipedia.org/w/index.php?search={urllib.parse.quote(candidato['nomeCompleto'])}"
@@ -117,6 +118,7 @@ with col2:
     st.write('💍 Estado Civil:', candidato['descricaoEstadoCivil'])
     st.write('🎨 Cor:', candidato['descricaoCorRaca'])
     st.write('⏳ Idade:', str(candidato['idade']))
+    st.write('🌎 Naturalidade:', candidato['nomeMunicipioNascimento'],'-', candidato['sgUfNascimento'])
     st.write('📚 Escolaridade:',  f"{candidato['grauInstrucao']} <a target='_blank' href='{lattes}'> LATTES</a>", unsafe_allow_html=True)
     st.write('🛠  Ocupação:', candidato['ocupacao'])
     st.write('💼 Partido:', partido)

@@ -132,3 +132,7 @@ testes.ipynb
 app/app/data/candidato.json
 .gitignore
 app/app/data/prestacao.json
+etl.ipynb
+app/app/data/bens/*
+app/app/data/deputados/proposicoes/*
+app/app/data/deputados/votacoes/*

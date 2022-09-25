@@ -40,22 +40,6 @@
     "contagem": 603
   },
   {
-    "codigo": 9,
-    "sigla": null,
-    "nome": "1º Suplente",
-    "codSuperior": 0,
-    "titular": false,
-    "contagem": 9
-  },
-  {
-    "codigo": 10,
-    "sigla": null,
-    "nome": "2º Suplente",
-    "codSuperior": 0,
-    "titular": false,
-    "contagem": 10
-  },
-  {
     "codigo": 1,
     "sigla": null,
     "nome": "Presidente",
