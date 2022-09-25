@@ -55,7 +55,7 @@ def get_politica(x):
     
     return cargo_pts
 
-@st.cache
+# @st.cache
 def get_eleicoes():
     eleitos2010 = pd.read_csv(f'https://raw.githubusercontent.com/amarabuco/votix/data/app/app/data/candidatos/consulta_cand_2010/eleitos_2010.csv', 
                                     sep=',', converters={'NR_CPF_CANDIDATO': lambda x: str(x)} )
