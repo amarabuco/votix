@@ -27,7 +27,7 @@ headers = { "accept": "application/json",
 
 st.write(""" # 📊  Votix """)
 
-timer = pd.to_datetime('2022-10-02') - datetime.today()
+timer = pd.to_datetime('2022-10-02 11:00:00') - datetime.today()
 days = (timer.days)
 hours = int(timer.seconds // 3600)
 # st.write(timer)
