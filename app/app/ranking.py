@@ -26,7 +26,7 @@ st.write(""" # 📊  Votix """)
 st.success(""" ## Ranking """)
 st.write(""" Veja a pontuação dos candidatos. """)
 
-timer = pd.to_datetime('2022-10-02') - datetime.today()
+timer = pd.to_datetime('2022-10-02 08:00:00') - datetime.today()
 days = (timer.days)
 hours = int(timer.seconds // 3600)
 # st.write(timer)
