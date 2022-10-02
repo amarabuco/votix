@@ -32,7 +32,7 @@ days = (timer.days)
 hours = int(timer.seconds // 3600)
 # st.write(timer)
 st.write(f"#### Faltam {days} dias e {hours} horas para a Eleição 2022.")
-st.progress(days)
+# st.progress(days)
 
 st.success(""" ## Candidato """)
 st.write("Saiba as informações e pontuação de cada candidato.")
