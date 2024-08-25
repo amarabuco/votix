@@ -1,0 +1,502 @@
+"DT_GERACAO";"HH_GERACAO";"ANO_ELEICAO";"CD_TIPO_ELEICAO";"NM_TIPO_ELEICAO";"CD_ELEICAO";"DS_ELEICAO";"DT_ELEICAO";"DT_POSSE";"SG_UF";"SG_UE";"NM_UE";"CD_CARGO";"DS_CARGO";"QT_VAGA"
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18198";"RUY BARBOSA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18198";"RUY BARBOSA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18198";"RUY BARBOSA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18279";"SANTANA DO MATOS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18279";"SANTANA DO MATOS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18279";"SANTANA DO MATOS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18317";"SÃO BENTO DO NORTE";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18317";"SÃO BENTO DO NORTE";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18317";"SÃO BENTO DO NORTE";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18376";"SÃO GONÇALO DO AMARANTE";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18376";"SÃO GONÇALO DO AMARANTE";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18376";"SÃO GONÇALO DO AMARANTE";13;"Vereador";17
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18414";"SÃO JOSÉ DE MIPIBU";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18414";"SÃO JOSÉ DE MIPIBU";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18414";"SÃO JOSÉ DE MIPIBU";13;"Vereador";13
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18473";"SÃO MIGUEL";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18473";"SÃO MIGUEL";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18473";"SÃO MIGUEL";13;"Vereador";11
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18511";"SÃO PEDRO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18511";"SÃO PEDRO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18511";"SÃO PEDRO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18554";"SÃO TOMÉ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18554";"SÃO TOMÉ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18554";"SÃO TOMÉ";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18597";"SENADOR ELÓI DE SOUZA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18597";"SENADOR ELÓI DE SOUZA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18597";"SENADOR ELÓI DE SOUZA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18678";"SERRINHA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18678";"SERRINHA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/02/2024";"RN";"18678";"SERRINHA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18716";"SÍTIO NOVO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18716";"SÍTIO NOVO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18716";"SÍTIO NOVO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18759";"TAIPU";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18759";"TAIPU";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18759";"TAIPU";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18791";"TENENTE ANANIAS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18791";"TENENTE ANANIAS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18791";"TENENTE ANANIAS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18856";"TOUROS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18856";"TOUROS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18856";"TOUROS";13;"Vereador";13
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18899";"UPANEMA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18899";"UPANEMA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18899";"UPANEMA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18937";"RAFAEL GODEIRO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18937";"RAFAEL GODEIRO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18937";"RAFAEL GODEIRO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18996";"VILA FLOR";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18996";"VILA FLOR";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18996";"VILA FLOR";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18112";"RIACHO DA CRUZ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18112";"RIACHO DA CRUZ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18112";"RIACHO DA CRUZ";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17612";"NATAL";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17612";"NATAL";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17612";"NATAL";13;"Vereador";29
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16063";"SÃO MIGUEL DO GOSTOSO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16063";"SÃO MIGUEL DO GOSTOSO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16063";"SÃO MIGUEL DO GOSTOSO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18490";"SÃO PAULO DO POTENGI";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18490";"SÃO PAULO DO POTENGI";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18490";"SÃO PAULO DO POTENGI";13;"Vereador";11
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18538";"SÃO RAFAEL";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18538";"SÃO RAFAEL";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18538";"SÃO RAFAEL";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18570";"SÃO VICENTE";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18570";"SÃO VICENTE";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18570";"SÃO VICENTE";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18619";"SENADOR GEORGINO AVELINO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18619";"SENADOR GEORGINO AVELINO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18619";"SENADOR GEORGINO AVELINO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18058";"SERRA CAIADA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18058";"SERRA CAIADA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18058";"SERRA CAIADA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18635";"SERRA DE SÃO BENTO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18635";"SERRA DE SÃO BENTO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18635";"SERRA DE SÃO BENTO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16020";"SERRA DO MEL";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16020";"SERRA DO MEL";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16020";"SERRA DO MEL";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18651";"SERRA NEGRA DO NORTE";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18651";"SERRA NEGRA DO NORTE";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18651";"SERRA NEGRA DO NORTE";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16209";"SERRINHA DOS PINTOS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16209";"SERRINHA DOS PINTOS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16209";"SERRINHA DOS PINTOS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18694";"SEVERIANO MELO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18694";"SEVERIANO MELO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18694";"SEVERIANO MELO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18732";"TABOLEIRO GRANDE";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18732";"TABOLEIRO GRANDE";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18732";"TABOLEIRO GRANDE";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18775";"TANGARÁ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18775";"TANGARÁ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18775";"TANGARÁ";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16004";"TENENTE LAURENTINO CRUZ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16004";"TENENTE LAURENTINO CRUZ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16004";"TENENTE LAURENTINO CRUZ";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16225";"TIBAU";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16225";"TIBAU";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16225";"TIBAU";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18813";"TIBAU DO SUL";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18813";"TIBAU DO SUL";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18813";"TIBAU DO SUL";13;"Vereador";11
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18830";"TIMBAÚBA DOS BATISTAS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18830";"TIMBAÚBA DOS BATISTAS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18830";"TIMBAÚBA DOS BATISTAS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16128";"TRIUNFO POTIGUAR";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16128";"TRIUNFO POTIGUAR";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16128";"TRIUNFO POTIGUAR";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18872";"UMARIZAL";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18872";"UMARIZAL";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18872";"UMARIZAL";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18910";"VÁRZEA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18910";"VÁRZEA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2024";"RN";"18910";"VÁRZEA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16187";"VENHA-VER";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16187";"VENHA-VER";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16187";"VENHA-VER";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18953";"VERA CRUZ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18953";"VERA CRUZ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18953";"VERA CRUZ";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18970";"VIÇOSA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18970";"VIÇOSA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18970";"VIÇOSA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17132";"JOÃO CÂMARA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17132";"JOÃO CÂMARA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17132";"JOÃO CÂMARA";13;"Vereador";13
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17159";"JOÃO DIAS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17159";"JOÃO DIAS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17159";"JOÃO DIAS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17175";"JOSÉ DA PENHA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17175";"JOSÉ DA PENHA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17175";"JOSÉ DA PENHA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18210";"SÃO FRANCISCO DO OESTE";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18210";"SÃO FRANCISCO DO OESTE";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18210";"SÃO FRANCISCO DO OESTE";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18392";"SÃO JOÃO DO SABUGI";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18392";"SÃO JOÃO DO SABUGI";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18392";"SÃO JOÃO DO SABUGI";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17230";"LAGOA D ANTA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17230";"LAGOA D ANTA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17230";"LAGOA D ANTA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17256";"LAGOA DE PEDRAS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17256";"LAGOA DE PEDRAS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17256";"LAGOA DE PEDRAS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17272";"LAGOA DE VELHOS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17272";"LAGOA DE VELHOS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17272";"LAGOA DE VELHOS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17299";"LAGOA NOVA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17299";"LAGOA NOVA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17299";"LAGOA NOVA";13;"Vereador";11
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17310";"LAGOA SALGADA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17310";"LAGOA SALGADA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17310";"LAGOA SALGADA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17337";"LAJES";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17337";"LAJES";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17337";"LAJES";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17353";"LAJES PINTADAS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17353";"LAJES PINTADAS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17353";"LAJES PINTADAS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17370";"LUCRÉCIA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17370";"LUCRÉCIA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17370";"LUCRÉCIA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17396";"LUÍS GOMES";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17396";"LUÍS GOMES";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17396";"LUÍS GOMES";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17418";"MACAÍBA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17418";"MACAÍBA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17418";"MACAÍBA";13;"Vereador";17
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17434";"MACAU";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17434";"MACAU";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17434";"MACAU";13;"Vereador";11
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16160";"MAJOR SALES";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16160";"MAJOR SALES";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16160";"MAJOR SALES";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17450";"MARCELINO VIEIRA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17450";"MARCELINO VIEIRA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"02/01/2025";"RN";"17450";"MARCELINO VIEIRA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17477";"MARTINS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17477";"MARTINS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17477";"MARTINS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17493";"MAXARANGUAPE";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17493";"MAXARANGUAPE";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17493";"MAXARANGUAPE";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17213";"MESSIAS TARGINO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17213";"MESSIAS TARGINO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17213";"MESSIAS TARGINO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17531";"MONTANHAS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17531";"MONTANHAS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17531";"MONTANHAS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17558";"MONTE ALEGRE";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17558";"MONTE ALEGRE";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17558";"MONTE ALEGRE";13;"Vereador";11
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17574";"MONTE DAS GAMELEIRAS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17574";"MONTE DAS GAMELEIRAS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17574";"MONTE DAS GAMELEIRAS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17590";"MOSSORÓ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17590";"MOSSORÓ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17590";"MOSSORÓ";13;"Vereador";21
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17639";"NÍSIA FLORESTA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17639";"NÍSIA FLORESTA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17639";"NÍSIA FLORESTA";13;"Vereador";13
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17655";"NOVA CRUZ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17655";"NOVA CRUZ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17655";"NOVA CRUZ";13;"Vereador";13
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17671";"OLHO D ÁGUA DO BORGES";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17671";"OLHO D ÁGUA DO BORGES";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17671";"OLHO D ÁGUA DO BORGES";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17698";"OURO BRANCO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17698";"OURO BRANCO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17698";"OURO BRANCO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17710";"PARANÁ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17710";"PARANÁ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17710";"PARANÁ";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17736";"PARAÚ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17736";"PARAÚ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17736";"PARAÚ";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17752";"PARAZINHO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17752";"PARAZINHO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17752";"PARAZINHO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17779";"PARELHAS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17779";"PARELHAS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17779";"PARELHAS";13;"Vereador";11
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17795";"PARNAMIRIM";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17795";"PARNAMIRIM";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/02/2025";"RN";"17795";"PARNAMIRIM";13;"Vereador";21
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17817";"PASSA E FICA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17817";"PASSA E FICA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17817";"PASSA E FICA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17833";"PASSAGEM";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17833";"PASSAGEM";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2024";"RN";"17833";"PASSAGEM";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17850";"PATU";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17850";"PATU";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17850";"PATU";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17876";"PAU DOS FERROS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17876";"PAU DOS FERROS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17876";"PAU DOS FERROS";13;"Vereador";13
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17892";"PEDRA GRANDE";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17892";"PEDRA GRANDE";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17892";"PEDRA GRANDE";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17914";"PEDRA PRETA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17914";"PEDRA PRETA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17914";"PEDRA PRETA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17930";"PEDRO AVELINO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17930";"PEDRO AVELINO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17930";"PEDRO AVELINO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17957";"PEDRO VELHO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17957";"PEDRO VELHO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17957";"PEDRO VELHO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17973";"PENDÊNCIAS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17973";"PENDÊNCIAS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17973";"PENDÊNCIAS";13;"Vereador";11
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17990";"PILÕES";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17990";"PILÕES";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17990";"PILÕES";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18015";"POÇO BRANCO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18015";"POÇO BRANCO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18015";"POÇO BRANCO";13;"Vereador";11
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18031";"PORTALEGRE";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18031";"PORTALEGRE";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18031";"PORTALEGRE";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16284";"PORTO DO MANGUE";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16284";"PORTO DO MANGUE";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16284";"PORTO DO MANGUE";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18074";"PUREZA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18074";"PUREZA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18074";"PUREZA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18090";"RAFAEL FERNANDES";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18090";"RAFAEL FERNANDES";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/02/2025";"RN";"18090";"RAFAEL FERNANDES";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18155";"RIACHUELO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18155";"RIACHUELO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18155";"RIACHUELO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16268";"RIO DO FOGO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16268";"RIO DO FOGO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16268";"RIO DO FOGO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18171";"RODOLFO FERNANDES";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18171";"RODOLFO FERNANDES";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18171";"RODOLFO FERNANDES";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18236";"SANTA CRUZ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18236";"SANTA CRUZ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18236";"SANTA CRUZ";13;"Vereador";13
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16241";"SANTA MARIA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16241";"SANTA MARIA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16241";"SANTA MARIA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18252";"SANTANA DO SERIDÓ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18252";"SANTANA DO SERIDÓ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18252";"SANTANA DO SERIDÓ";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18295";"SANTO ANTÔNIO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18295";"SANTO ANTÔNIO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2024";"RN";"18295";"SANTO ANTÔNIO";13;"Vereador";11
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18333";"SÃO BENTO DO TRAIRÍ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18333";"SÃO BENTO DO TRAIRÍ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18333";"SÃO BENTO DO TRAIRÍ";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18350";"SÃO FERNANDO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18350";"SÃO FERNANDO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18350";"SÃO FERNANDO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16012";"ACARI";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16012";"ACARI";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16012";"ACARI";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18430";"SÃO JOSÉ DO CAMPESTRE";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18430";"SÃO JOSÉ DO CAMPESTRE";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18430";"SÃO JOSÉ DO CAMPESTRE";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18457";"SÃO JOSÉ DO SERIDÓ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18457";"SÃO JOSÉ DO SERIDÓ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18457";"SÃO JOSÉ DO SERIDÓ";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16055";"AFONSO BEZERRA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16055";"AFONSO BEZERRA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16055";"AFONSO BEZERRA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16071";"ÁGUA NOVA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16071";"ÁGUA NOVA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/02/2025";"RN";"16071";"ÁGUA NOVA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16098";"ALEXANDRIA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16098";"ALEXANDRIA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16098";"ALEXANDRIA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16110";"ALMINO AFONSO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16110";"ALMINO AFONSO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16110";"ALMINO AFONSO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16152";"ANGICOS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16152";"ANGICOS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16152";"ANGICOS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16195";"APODI";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16195";"APODI";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16195";"APODI";13;"Vereador";13
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16233";"AREZ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16233";"AREZ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16233";"AREZ";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16039";"ASSÚ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16039";"ASSÚ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16039";"ASSÚ";13;"Vereador";15
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"30031";"BARAÚNA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"30031";"BARAÚNA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"30031";"BARAÚNA";13;"Vereador";11
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16292";"BARCELONA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16292";"BARCELONA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16292";"BARCELONA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16330";"BOM JESUS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16330";"BOM JESUS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16330";"BOM JESUS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16373";"CAIÇARA DO RIO DO VENTO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16373";"CAIÇARA DO RIO DO VENTO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16373";"CAIÇARA DO RIO DO VENTO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16390";"CAICÓ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16390";"CAICÓ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16390";"CAICÓ";13;"Vereador";15
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16438";"CANGUARETAMA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16438";"CANGUARETAMA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16438";"CANGUARETAMA";13;"Vereador";11
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16470";"CARNAÚBA DOS DANTAS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16470";"CARNAÚBA DOS DANTAS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16470";"CARNAÚBA DOS DANTAS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16519";"CEARÁ-MIRIM";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16519";"CEARÁ-MIRIM";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16519";"CEARÁ-MIRIM";13;"Vereador";17
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16535";"CERRO CORÁ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16535";"CERRO CORÁ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16535";"CERRO CORÁ";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16578";"CORONEL JOÃO PESSOA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16578";"CORONEL JOÃO PESSOA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16578";"CORONEL JOÃO PESSOA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16616";"CURRAIS NOVOS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16616";"CURRAIS NOVOS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16616";"CURRAIS NOVOS";13;"Vereador";13
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16659";"ENCANTO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16659";"ENCANTO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/02/2025";"RN";"16659";"ENCANTO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16675";"EQUADOR";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16675";"EQUADOR";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16675";"EQUADOR";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16713";"EXTREMOZ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16713";"EXTREMOZ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16713";"EXTREMOZ";13;"Vereador";15
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16730";"FELIPE GUERRA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16730";"FELIPE GUERRA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16730";"FELIPE GUERRA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16144";"FERNANDO PEDROZA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16144";"FERNANDO PEDROZA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16144";"FERNANDO PEDROZA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16772";"FRANCISCO DANTAS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16772";"FRANCISCO DANTAS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16772";"FRANCISCO DANTAS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17515";"FRUTUOSO GOMES";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17515";"FRUTUOSO GOMES";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17515";"FRUTUOSO GOMES";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16810";"GOIANINHA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16810";"GOIANINHA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16810";"GOIANINHA";13;"Vereador";11
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16853";"GROSSOS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16853";"GROSSOS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16853";"GROSSOS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16870";"GUAMARÉ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16870";"GUAMARÉ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16870";"GUAMARÉ";13;"Vereador";11
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16896";"IELMO MARINHO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16896";"IELMO MARINHO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16896";"IELMO MARINHO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16934";"IPUEIRA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16934";"IPUEIRA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16934";"IPUEIRA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16977";"JAÇANÃ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16977";"JAÇANÃ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16977";"JAÇANÃ";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17019";"JANDUÍS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17019";"JANDUÍS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17019";"JANDUÍS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17051";"JAPI";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17051";"JAPI";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17051";"JAPI";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17094";"JARDIM DE PIRANHAS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17094";"JARDIM DE PIRANHAS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17094";"JARDIM DE PIRANHAS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17116";"JARDIM DO SERIDÓ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17116";"JARDIM DO SERIDÓ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17116";"JARDIM DO SERIDÓ";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16306";"JUNDIÁ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16306";"JUNDIÁ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16306";"JUNDIÁ";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16047";"CAIÇARA DO NORTE";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16047";"CAIÇARA DO NORTE";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16047";"CAIÇARA DO NORTE";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16080";"ITAJÁ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16080";"ITAJÁ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16080";"ITAJÁ";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16101";"BODÓ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16101";"BODÓ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16101";"BODÓ";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16136";"ALTO DO RODRIGUES";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16136";"ALTO DO RODRIGUES";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16136";"ALTO DO RODRIGUES";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16179";"ANTÔNIO MARTINS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16179";"ANTÔNIO MARTINS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16179";"ANTÔNIO MARTINS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16217";"AREIA BRANCA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16217";"AREIA BRANCA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16217";"AREIA BRANCA";13;"Vereador";11
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16250";"CAMPO GRANDE";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16250";"CAMPO GRANDE";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16250";"CAMPO GRANDE";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16276";"BAÍA FORMOSA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16276";"BAÍA FORMOSA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16276";"BAÍA FORMOSA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16314";"BENTO FERNANDES";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16314";"BENTO FERNANDES";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16314";"BENTO FERNANDES";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16357";"BREJINHO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16357";"BREJINHO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16357";"BREJINHO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16411";"CAMPO REDONDO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16411";"CAMPO REDONDO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16411";"CAMPO REDONDO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16454";"CARAÚBAS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16454";"CARAÚBAS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16454";"CARAÚBAS";13;"Vereador";11
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16497";"CARNAUBAIS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16497";"CARNAUBAIS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16497";"CARNAUBAIS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16551";"CORONEL EZEQUIEL";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16551";"CORONEL EZEQUIEL";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16551";"CORONEL EZEQUIEL";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16594";"CRUZETA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16594";"CRUZETA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16594";"CRUZETA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16632";"DOUTOR SEVERIANO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16632";"DOUTOR SEVERIANO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16632";"DOUTOR SEVERIANO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16691";"ESPÍRITO SANTO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16691";"ESPÍRITO SANTO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16691";"ESPÍRITO SANTO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16756";"FLORÂNIA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16756";"FLORÂNIA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16756";"FLORÂNIA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16799";"GALINHOS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16799";"GALINHOS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16799";"GALINHOS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16837";"GOVERNADOR DIX-SEPT ROSADO";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16837";"GOVERNADOR DIX-SEPT ROSADO";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16837";"GOVERNADOR DIX-SEPT ROSADO";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16918";"IPANGUAÇU";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16918";"IPANGUAÇU";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16918";"IPANGUAÇU";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16950";"ITAÚ";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16950";"ITAÚ";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16950";"ITAÚ";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16993";"JANDAÍRA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16993";"JANDAÍRA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"16993";"JANDAÍRA";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17035";"BOA SAÚDE";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17035";"BOA SAÚDE";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17035";"BOA SAÚDE";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17078";"JARDIM DE ANGICOS";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17078";"JARDIM DE ANGICOS";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17078";"JARDIM DE ANGICOS";13;"Vereador";9
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17191";"JUCURUTU";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17191";"JUCURUTU";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"17191";"JUCURUTU";13;"Vereador";11
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18139";"RIACHO DE SANTANA";11;"Prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/01/2025";"RN";"18139";"RIACHO DE SANTANA";12;"Vice-prefeito";1
+"25/08/2024";"08:30:28";2024;2;"Eleição Ordinária";619;"Eleições Municipais 2024";"06/10/2024";"01/02/2025";"RN";"18139";"RIACHO DE SANTANA";13;"Vereador";9
