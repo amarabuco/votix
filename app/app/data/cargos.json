@@ -1,56 +1,24 @@
 [
   {
-    "codigo": 3,
+    "codigo": 11,
     "sigla": null,
-    "nome": "Governador",
+    "nome": "Prefeito(a)",
     "codSuperior": 0,
     "titular": false,
     "contagem": 11
   },
   {
-    "codigo": 4,
+    "codigo": 12,
     "sigla": null,
-    "nome": "Vice-governador",
+    "nome": "Vice-Prefeito(a)",
     "codSuperior": 0,
     "titular": false,
     "contagem": 11
   },
   {
-    "codigo": 5,
+    "codigo": 13,
     "sigla": null,
-    "nome": "Senador",
-    "codSuperior": 0,
-    "titular": false,
-    "contagem": 9
-  },
-  {
-    "codigo": 6,
-    "sigla": null,
-    "nome": "Deputado Federal",
-    "codSuperior": 0,
-    "titular": false,
-    "contagem": 471
-  },
-  {
-    "codigo": 7,
-    "sigla": null,
-    "nome": "Deputado Estadual",
-    "codSuperior": 0,
-    "titular": false,
-    "contagem": 603
-  },
-  {
-    "codigo": 1,
-    "sigla": null,
-    "nome": "Presidente",
-    "codSuperior": 0,
-    "titular": false,
-    "contagem": 11
-  },
-  {
-    "codigo": 2,
-    "sigla": null,
-    "nome": "Vice-Presidente",
+    "nome": "Vereador(a)",
     "codSuperior": 0,
     "titular": false,
     "contagem": 11
