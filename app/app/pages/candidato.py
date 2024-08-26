@@ -98,7 +98,6 @@ cid = candidatos_partido.loc[candidatos_partido['nomeUrna']
 cnum = candidatos_partido.loc[candidatos_partido['nomeUrna']
                               == nome].values[0, 2]
 
-cid
 candidato = requests.get(
     f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/{sigla}/2045202024/candidato/{cid}", headers=headers).json()
 # st.write(candidato)
