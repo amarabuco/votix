@@ -173,7 +173,7 @@ with st.spinner('Carregando candidatos... '):
 
     # candidatos_df
     resultado = candidatos_df[PROPS]
-    resultado
+    # resultado
 
     if (sexo != 'TODOS'):
         resultado = resultado.query(f"descricaoSexo == '{sexo}'")
