@@ -251,7 +251,8 @@ with st.spinner('Carregando candidatos... '):
                        float_precision='round_trip', index_col=0)
 
     st.info(f'Candidatos ({len(resultado[cols])})')
-    st.write(resultado[cols].sort_values("ranking", ascending=False))
+    st.DataFrame(resultado[cols].sort_values(
+        "ranking", ascending=False), use_container_width=True)
 
     fig = px.scatter(resultado,  x='anos', y='ranking', color='st_REELEICAO', hover_data=[
         'nomeUrna', 'numero', 'partido.nome', 'grauInstrucao', 'descricaoSexo', 'descricaoCorRaca', 'ocupacao'])
