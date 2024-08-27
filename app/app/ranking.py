@@ -47,7 +47,7 @@ municipios = requests.get(
 
 sigla = st.selectbox(
     'Município',
-    municipios, format_func=lambda x: x['nome'])
+    municipios, format_func=lambda x: x['nome'], index=131)
 
 municipio = sigla['nome']
 
@@ -251,8 +251,8 @@ with st.spinner('Carregando candidatos... '):
                        float_precision='round_trip', index_col=0)
 
     st.info(f'Candidatos ({len(resultado[cols])})')
-    st.DataFrame(resultado[cols].sort_values(
-        "ranking", ascending=False), use_container_width=True)
+    st.dataframe(resultado[cols].sort_values(
+        "ranking", ascending=False))
 
     fig = px.scatter(resultado,  x='anos', y='ranking', color='st_REELEICAO', hover_data=[
         'nomeUrna', 'numero', 'partido.nome', 'grauInstrucao', 'descricaoSexo', 'descricaoCorRaca', 'ocupacao'])
@@ -272,8 +272,8 @@ with st.spinner('Carregando candidatos... '):
     # resultado_bens = resultado_bens.sort_values('DIFERENCA', ascending=False)
     resultado_bens = resultado_bens.loc[resultado_bens['numero'].isin(
         resultado['numero'])]
-    st.write(resultado_bens[['nomeUrna', 'numero',
-                             'partido.nome', '2010', '2014', '2018', '2022', 'DIFERENCA']])
+    st.dataframe(resultado_bens[['nomeUrna', 'numero',
+                                 'partido.nome', '2010', '2014', '2018', '2022', 'DIFERENCA']])
     # st.write(resultado.drop('eleicoesAnteriores', axis=1)[cols].sort_values('ranking', ascending=False))
     # st.markdown('Mais informações na página **candidato** no menu lateral.')
     # st.markdown('Descrição da pontuação na página **sobre** no menu lateral.')
