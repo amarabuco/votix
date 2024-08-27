@@ -95,7 +95,8 @@ def get_eleicoes():
 
 
 def fix_cpf(x):
-    if len(x) < 11:
+
+    if x != None and len(x) < 11:
         zeros = 11 - len(x)
         return '0' * zeros + x
     return x

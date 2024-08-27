@@ -20,6 +20,16 @@ st.set_page_config(
 # st.write(os.path.dirname(st.__file__))
 
 
+@st.cache
+def load_candidatos(cids):
+    candidatos_df = pd.DataFrame()
+    for cid in cids['id']:
+        cand = pd.json_normalize(requests.get(
+            f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/{sigla}/2045202024/candidato/{cid}", headers=headers).json())
+        candidatos_df = pd.concat([candidatos_df, cand])
+    return candidatos_df
+
+
 headers = {"accept": "application/json",
            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
            }
@@ -33,7 +43,9 @@ days = (timer.days)
 hours = int(timer.seconds // 3600)
 # st.write(timer)
 st.write(f"#### Faltam {days} dias e {hours} horas para a Eleição 2024.")
-# st.progress(days)
+st.progress(days)
+if st.button('Limpar dados'):
+    st.cache.clear()
 
 uf = ["AC", "AL", "AM", "AP", "BA", "CE", "DF", "ES", "GO", "MA", "MG", "MS", "MT", "PA",
       "PB", "PE", "PI", "PR", "RJ", "RN", "RO", "RR", "RS", "SC", "SE", "SP", "TO", "BR"]
@@ -102,13 +114,11 @@ cids = pd.DataFrame.from_records(requests.get(
 
 candidatos_df = pd.DataFrame()
 with st.spinner('Carregando candidatos... '):
-    for cid in cids['id']:
-        cand = pd.json_normalize(requests.get(
-            f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/{sigla}/2045202024/candidato/{cid}", headers=headers).json())
-        candidatos_df = pd.concat([candidatos_df, cand])
+    candidatos_df = load_candidatos(cids)
     # candidatos_df = pd.json_normalize(requests.get(
     #     f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/{sigla}/2045202024/{cargo_id}/candidatos", headers=headers).json()['candidatos'])
 
+    candidatos_df
     candidatos_df = candidatos_df.loc[candidatos_df["cargo.codigo"] == cargo_id]
 
     ocupacoes = pd.Series(
@@ -203,19 +213,25 @@ with st.spinner('Carregando candidatos... '):
         fix_cpf)
 
     # resultado['cpf'] = resultado['cpf'].apply(fix_cpf)
+    # resultado
 
-    eleicoes_anteriores = resultado.merge(eleicoes_anteriores, left_on='cpf', right_on='NR_CPF_CANDIDATO').query(
-        f"DS_SIT_TOT_TURNO == 'ELEITO' or DS_SIT_TOT_TURNO == 'ELEITO POR QP'")
+    # eleicoes_anteriores = resultado.merge(
+    #     eleicoes_anteriores, left_on='cpf', right_on='NR_CPF_CANDIDATO')
+    eleicoes_anteriores = resultado.merge(
+        eleicoes_anteriores, left_on='nomeUrna', right_on='NM_URNA_CANDIDATO')
+    # eleicoes_anteriores
     eleicoes_anteriores = eleicoes_anteriores[[
         'NR_CPF_CANDIDATO', 'NM_URNA_CANDIDATO', 'ANO', 'SG_PARTIDO', 'DS_CARGO', 'NM_UE']]
 
+    eleicoes_anteriores['DS_CARGO'] = eleicoes_anteriores['DS_CARGO'].apply(
+        lambda x: x.lower())
     eleicoes_anteriores['politica'] = eleicoes_anteriores['DS_CARGO'].apply(
         get_politica)
 
     cargos_eletivos = eleicoes_anteriores.copy()
 
     eleicoes_anteriores = eleicoes_anteriores.pivot_table(
-        index='NR_CPF_CANDIDATO', values='politica', aggfunc=max)
+        index='NM_URNA_CANDIDATO', values='politica', aggfunc=max)
 
     resultado['escolaridade'] = resultado['grauInstrucao'].apply(
         get_escolaridade)
@@ -224,7 +240,7 @@ with st.spinner('Carregando candidatos... '):
     resultado['idade'] = resultado['anos'].apply(get_idade)
 
     # resultado['politica'] = resultado['cpf'].apply(lambda x: eleicoes_anteriores.query(f'cpf = {x}')['politica'].max())
-    resultado['politica'] = resultado['cpf'].apply(
+    resultado['politica'] = resultado['nomeUrna'].apply(
         lambda x: eleicoes_anteriores.loc[x]['politica'] if x in eleicoes_anteriores.index else 0)
     resultado['ranking'] = (resultado['escolaridade'] +
                             resultado['idade'] + resultado['politica'])/3
