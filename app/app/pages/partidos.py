@@ -2,6 +2,8 @@ import streamlit as st
 from datetime import datetime
 import pandas as pd
 import requests
+from dadosPartidos import partidos as partidos_dados
+from dadosCargos import cargos as cargos_dados
 
 st.set_page_config(
     page_title='Votix - Partidos',
@@ -25,8 +27,8 @@ sigla_uf = st.selectbox(
     'Estado',
     uf, 15)
 
-cargos = pd.read_json(
-    './data/cargos.json')
+
+cargos = pd.DataFrame(cargos_dados)
 
 # cargos = pd.read_json('/Volumes/EXT/myApps/votix/app/app/data/cargos.json')
 
@@ -45,10 +47,9 @@ municipio = sigla['nome']
 
 sigla = sigla['codigo']
 
-partidos = pd.read_json(
-    './data/partidos.json')
+partidos = pd.DataFrame(partidos_dados)
 
-# partido = st.selectbox('Cargo', partidos['nome'])
+partido = st.selectbox('Cargo', partidos['nome'])
 
 st.write(f""" ## {sigla} | {cargo}""")
 

@@ -14,6 +14,8 @@ from PIL import Image
 # from wordcloud import WordCloud, ImageColorGenerator
 from stqdm import stqdm
 import matplotlib.pyplot as plt
+from dadosPartidos import partidos as partidos_dados
+from dadosCargos import cargos as cargos_dados
 
 st.set_page_config(
     page_title='Votix - Candidato',
@@ -62,7 +64,8 @@ sigla = st.selectbox(
 municipio = sigla['nome']
 sigla = sigla['codigo']
 
-cargos = pd.read_json('data/cargos.json')
+
+cargos = pd.DataFrame(cargos_dados)
 # cargos = pd.read_json(json.loads(open('data/cargos.json').read()))
 
 cargo = st.selectbox(

@@ -8,6 +8,8 @@ from stqdm import stqdm
 import webbrowser
 import os
 import plotly.express as px
+from dadosPartidos import partidos as partidos_dados
+from dadosCargos import cargos as cargos_dados
 
 st.set_page_config(
     page_title='Votix - Ranking',
@@ -51,8 +53,8 @@ municipio = sigla['nome']
 
 sigla = sigla['codigo']
 
-cargos = pd.read_json('data/cargos.json')
-# cargos = pd.read_json('/Volumes/EXT/myApps/votix/app/app/data/cargos.json')
+cargos = pd.DataFrame(cargos_dados)
+
 
 cargo = st.selectbox(
     'Cargo',

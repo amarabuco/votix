@@ -4,6 +4,8 @@ import pandas as pd
 import requests
 from stqdm import stqdm
 import urllib.parse
+from dadosPartidos import partidos as partidos_dados
+from dadosCargos import cargos as cargos_dados
 
 st.set_page_config(
     page_title='Votix - Partido',
@@ -27,8 +29,8 @@ sigla_uf = st.selectbox(
     'Estado',
     uf, 15)
 
-cargos = pd.read_json(
-    './data/cargos.json')
+cargos = pd.DataFrame(cargos_dados)
+
 # cargos = pd.read_json('/Volumes/EXT/myApps/votix/app/app/data/cargos.json')
 
 cargo = st.selectbox(
@@ -48,7 +50,7 @@ municipio = sigla['nome']
 
 sigla = sigla['codigo']
 
-partidos = pd.read_json('./data/partidos.json')
+partidos = pd.DataFrame(partidos_dados)
 
 partidos = partidos.sort_values(by='sigla')
 partido = st.selectbox(
@@ -59,10 +61,10 @@ partido_id = partidos.query(f'sigla == "{partido}"').values[0, 0]
 
 # st.write('Estado: ', sigla, 'Cargo: ', cargo, 'Partido:', partido)
 
-partido_info = requests.get(
-    f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/partido/2030402020/2020/{sigla}/3/{partido_id}", headers=headers).json()
+# partido_info = requests.get(
+#     f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/partido/2045202024/2024/{sigla}/3/{partido_id}", headers=headers).json()
 
-partido_info
+# partido_info
 
 st.write(f""" ## {sigla} | {cargo} | {partido} """)
 # st.image(
@@ -71,13 +73,15 @@ st.write(f""" ## {sigla} | {cargo} | {partido} """)
 # if not ("Partido" in nomePartido):
 #     nomePartido = 'Partido ' + nomePartido
 
-st.write("https://pt.wikipedia.org/w/index.php?search={}".format(urllib.parse.quote(nomePartido)))
+# st.write("https://pt.wikipedia.org/w/index.php?search={}".format(urllib.parse.quote(nomePartido)))
 
 # f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2022/{sigla}/2040602022/{cargo_id}/candidatos"
 candidatos = requests.get(
-    f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2022/{sigla}/2040602022/{cargo_id}/candidatos", headers=headers).json()['candidatos']
+    f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2024/{sigla}/2045202024/{cargo_id}/candidatos", headers=headers).json()['candidatos']
+
 
 candidatos_df = pd.DataFrame(candidatos)
+# candidatos_df
 candidatos_df['PARTIDO'] = candidatos_df['partido'].apply(
     lambda x:  x['sigla'])
 
@@ -92,8 +96,10 @@ else:
         cid = candidatos_partido.iloc[row]['id']
         # cid
         # f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/{sigla}/2040602022/candidato/{cid}"
+        # candidato = requests.get(
+        #     f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/{sigla}/2040602022/candidato/{cid}", headers=headers).json()
         candidato = requests.get(
-            f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/{sigla}/2040602022/candidato/{cid}", headers=headers).json()
+            f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/{sigla}/2045202024/candidato/{cid}", headers=headers).json()
         props = ['descricaoSexo', 'descricaoEstadoCivil', 'descricaoCorRaca', 'grauInstrucao', 'ocupacao',
                  'dataDeNascimento', 'totalDeBens', 'nomeMunicipioNascimento', 'st_MOTIVO_FICHA_LIMPA']
         cs = pd.Series({p: candidato[p] for p in props}, name=candidato['id'])
@@ -102,7 +108,9 @@ else:
         # pd.DataFrame(candidato.values())
         cs['idade'] = (
             (datetime.now() - pd.to_datetime(candidato['dataDeNascimento']))/365.2425).days
-        candidatos_completo = candidatos_completo.append(cs)
+        candidatos_completo = pd.concat([candidatos_completo, cs], axis=1)
+        candidatos_completo
+
     try:
         st.write('Receita: ', "{:,.2f}".format(
             partido_info['dadosConsolidados']['totalRecebido']))
@@ -127,16 +135,17 @@ else:
             df = candidatos_completo['idade'].describe()
             st.write(df)
         else:
-            df = candidatos_completo.groupby(p)[p].count()
-            st.bar_chart(pd.DataFrame(df.values, index=df.index))
-            st.write(
-                pd.concat([df, ((df/df.sum()).round(2) * 100).rename('%')], axis=1))
+            pass
+            # if len(candidatos_completo) > 1:
+            #     df = candidatos_completo.groupby(p)[p].count()
+            #     st.bar_chart(pd.DataFrame(df.values, index=df.index))
+            #     st.write(
+            #         pd.concat([df, ((df/df.sum()).round(2) * 100).rename('%')], axis=1))
 
+            # df_uf = pd.DataFrame(uf)
 
-# df_uf = pd.DataFrame(uf)
+            # st.write(""" ## Candidato """)
 
-# st.write(""" ## Candidato """)
+            # candidato = requests.get("https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PE/2040602022/candidato/170001610442", headers=headers ).json()
 
-# candidato = requests.get("https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PE/2040602022/candidato/170001610442", headers=headers ).json()
-
-# st.write(candidato)
+            # st.write(candidato)
