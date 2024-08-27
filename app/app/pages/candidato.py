@@ -11,7 +11,7 @@ import json
 # wordcloud
 from bs4 import BeautifulSoup
 from PIL import Image
-from wordcloud import WordCloud, ImageColorGenerator
+# from wordcloud import WordCloud, ImageColorGenerator
 from stqdm import stqdm
 import matplotlib.pyplot as plt
 
@@ -106,6 +106,7 @@ partido = candidato['partido']['sigla']
 
 prestacao = requests.get(
     f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2045202024/2024/{sigla}/{cargo_id}/{partido_id}/{cnum}/{cid}", headers=headers).json()
+f"https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2045202024/2024/{sigla}/{cargo_id}/{partido_id}/{cnum}/{cid}"
 
 candidato['idade'] = (
     (datetime.now() - pd.to_datetime(candidato['dataDeNascimento']))/365.2425).days
@@ -162,52 +163,6 @@ with col3:
     st.write('#### Redes Sociais')
     for link in candidato['sites']:
         st.write(f'* {link}')
-# candidato
-# candidato_resumo
-if cargo_id == 3:
-    st.info("### Proposta")
-    proposta = f"https://raw.githubusercontent.com/amarabuco/votix/data/app/app/data/propostas/{sigla}/2024{sigla}{candidato['id']}.pdf"
-    st.write(
-        f"📔 <a target='_blank' href='{proposta}'> DOWNLOAD</a>", unsafe_allow_html=True)
-
-st.info("### Nuvem de palavras")
-if st.button('Gerar'):
-    results = []
-    for page in stqdm([1, 10, 20, 30]):
-        r = requests.get(
-            f"https://www.google.com/search?q={candidato['nomeCompleto']}&start={page}")
-        soup = BeautifulSoup(r.text, 'html.parser')
-        for h in soup.find_all('h3'):
-            for s in h.parent.parent.parent:
-                text = s.nextSibling
-                if text != None:
-                    results.append(text.text.lower())
-
-    STOPWORDS = requests.get(
-        'https://raw.githubusercontent.com/amarabuco/votix/main/app/app/data/stopwords.txt').text.split(' ')
-
-    for w in candidato['nomeCompleto'].split(' '):
-        STOPWORDS.append(w)
-    # Start with one review:
-    words = "".join(results)
-
-    # Create and generate a word cloud image:
-    wordcloud = WordCloud(stopwords=STOPWORDS, background_color='black',
-                          width=800, height=400).generate(words)
-
-    # Display the generated image:
-    # fig, ax = plt.subplots(figsize=(15,15))
-    # plt.imshow(wordcloud, interpolation='bilinear')
-    # plt.axis("off")
-    st.image(wordcloud.to_image())
-    st.caption('Fonte: Google. 4 primeiras páginas da pesquisa')
-    st.write(
-        f"👉 <a target='_blank' href='{google}'> GOOGLE</a>", unsafe_allow_html=True)
-
-
-else:
-    st.write(
-        f"👉 <a target='_blank' href='{google}'> GOOGLE</a>", unsafe_allow_html=True)
 
 st.info("### Pontuação")
 score = pd.Series(get_score(candidato_resumo)).reset_index().rename(
